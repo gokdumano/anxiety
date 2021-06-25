@@ -10,16 +10,16 @@ Bu şu anlama gelir: Bu oyundaki orijinal sanat / kod / müziğin *herhangi biri
 **Q:** Atıfta bulunmak zorunda mıyım?    
 **A:** *Kanunen* böyle bir zorundalığınız yok, fakat yaparsanız minnettar kalırız! <3
 
-**Q:** Kanunen konuşursak, bunu *ben* yaptım diyebilir miyim?
+**Q:** Kanunen konuşursak, bunu *ben* yaptım diyebilir miyim?    
 **A:** Evet, yasal olarak Mary Shelley'nin Frankenstein'ını yazdığınızı iddia etmenize veya 13 meme ucunuzun olduğunu iddia etmenize izin verildiği gibi.
 
-**Q:** Bu oyunu başka sitelere koyabilir miyim?
+**Q:** Bu oyunu başka sitelere koyabilir miyim?    
 **A:** Olabilir. Telif hakkı açısından tamamen yasal olsa da, birçok sitenin başkalarının kamu malı/açık kaynak çalışmalarını *önemli değişiklikler olmadan* yayınlamaya karşı kendi politikaları vardır. (Ama eğer kendi sitenizse, o halde, lütfen bu oyunu paylaşın!)
 
-**Q:** Bu oyunun uyarlamasını satabilir miyim?
+**Q:** Bu oyunun uyarlamasını satabilir miyim?    
 **A:** Evet! Ancak karışıklığı önlemek için oyununuzu "Hayran Yapımı Uyarlama" olarak etiketlemenizi ve açıkça izin verdiğimi belirten bu açıklamayı *eklemenizi öneririm*. (Örneğin: [oyunlarımdan birinin steam uyarlaması!](https://store.steampowered.com/app/1103210/We_Become_What_We_Behold_FanMade_Port/)) Bu, projelerimi her zaman açık kaynak + kamu malı olarak kullandığımın farkında olmayan insanlardan hırsızlık suçlamalarından kaçınmak içindir.
 
-**Q:** Bu oyunu insan ve kurt arasında bir flört simülasyonuna dönüştürebilir miyim?
+**Q:** Bu oyunu insan ve kurt arasında bir flört simülasyonuna dönüştürebilir miyim?    
 **A:** uh
 
 
