@@ -28,7 +28,7 @@ h: Oh hey! We're back here again?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: GÖREVİN İNSANINI *TEHLİKEDEN* KORUMAK
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
