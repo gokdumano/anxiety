@@ -105,7 +105,7 @@ Ek kod [Spacie](https://spacie.me)
 
 B Cavello, EmilyKate McDonough, Glen Chiacchieri, Mikayla Hutchinson, Monica Srivastava, Rowan, Srini Kadamati
 
-**Ve tabii ki [Patreon'daki fanlarıma] destekleri için teşekkür ederim(https://www.patreon.com/ncase)** Luv y'all <3
+**Ve tabii ki [Patreon'daki fanlarıma](https://www.patreon.com/ncase)  destekleri için teşekkür ederim** Luv y'all <3
 
 ## Çeviri Nasıl Yapılır
 
