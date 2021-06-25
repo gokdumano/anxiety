@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: VE BU DA ÝNSANIN ANKSÝYETESÝ
 
-n: _YOU_ ARE THE ANXIETY
+n: _SEN_ ANKSÝYETESÝN
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
