@@ -1,37 +1,37 @@
 ![](https://ncase.me/anxiety/sharing/banner.png)
 
-# [Play the interactive story here!](https://ncase.me/anxiety/)
+# [Etkileşimli hikayeyi buradan oynayın!](https://ncase.me/anxiety/)
 
-## Public Domain
+## Kamu malı
 
-Nicky Case and Monplaisir hereby dedicate all their work for this game to the public domain, under [Creative Commons Zero](https://creativecommons.org/choose/zero/).
-That means: you can remix and reuse *any* of the original art / code / music in this game for *any* purpose, even commercial use!
+Nicky Case ve Monplaisir işbu vesile ile bu oyun için tüm çalışmalarını [Creative Commons Zero](https://creativecommons.org/choose/zero/) altında kamuya açık hale getirmeye adamıştır.
+Bu şu anlama gelir: Bu oyundaki orijinal sanat / kod / müziğin *herhangi birini* herhangi bir amaç için, hatta ticari kullanım için uyarlayabilir ve yeniden kullanabilirsiniz!
 
-**Q:** Do I have to give attribution?    
-**A:** You're not *legally* required to, but it's highly appreciated! <3
+**Q:** Atıfta bulunmak zorunda mıyım?    
+**A:** *Kanunen* böyle bir zorundalığınız yok, fakat yaparsanız minnettar kalırız! <3
 
-**Q:** Legally speaking, can I claim *I* made this?    
-**A:** Yes, the same way you're legally allowed to claim to have written Mary Shelley's Frankenstein, or claim you have 13 nipples.
+**Q:** Kanunen konuşursak, bunu *ben* yaptım diyebilir miyim?
+**A:** Evet, yasal olarak Mary Shelley'nin Frankenstein'ını yazdığınızı iddia etmenize veya 13 meme ucunuzun olduğunu iddia etmenize izin verildiği gibi.
 
-**Q:** Can I post this game on other sites?    
-**A:** Maybe. Though it's completely legal copyright-wise, many sites have their own policies against posting other people's public domain/open source work *without* significant modifications. (But if it's your own site, then by all means, please mirror this game!)
+**Q:** Bu oyunu başka sitelere koyabilir miyim?
+**A:** Olabilir. Telif hakkı açısından tamamen yasal olsa da, birçok sitenin başkalarının kamu malı/açık kaynak çalışmalarını *önemli değişiklikler olmadan* yayınlamaya karşı kendi politikaları vardır. (Ama eğer kendi sitenizse, o halde, lütfen bu oyunu paylaşın!)
 
-**Q:** Can I sell a port of this game?    
-**A:** Yes! But to avoid confusion, I recommend labeling your game as "Fan-Made Port", and *link to this statement saying I'm explicitly allowing commercial remixes*. (Example: [a Steam port of another one of my games!](https://store.steampowered.com/app/1103210/We_Become_What_We_Behold_FanMade_Port/)) This is to avoid accusations of theft from folks who weren't aware I always open-source + public-domain my projects.
+**Q:** Bu oyunun uyarlamasını satabilir miyim?
+**A:** Evet! Ancak karışıklığı önlemek için oyununuzu "Hayran Yapımı Uyarlama" olarak etiketlemenizi ve açıkça izin verdiğimi belirten bu açıklamayı *eklemenizi öneririm*. (Örneğin: [oyunlarımdan birinin steam uyarlaması!](https://store.steampowered.com/app/1103210/We_Become_What_We_Behold_FanMade_Port/)) Bu, projelerimi her zaman açık kaynak + kamu malı olarak kullandığımın farkında olmayan insanlardan hırsızlık suçlamalarından kaçınmak içindir.
 
-**Q:** Can I turn this game into a dating sim between the human and wolf?   
+**Q:** Bu oyunu insan ve kurt arasında bir flört simülasyonuna dönüştürebilir miyim?
 **A:** uh
 
 
-## Full Credits
+## Emeği Geçenler
 
-Art / Code / Writing by [Nicky Case](https://ncase.me/)
+Sanat / Kod / Senaryo [Nicky Case](https://ncase.me/)
 
-Music by [Monplaisir](https://loyaltyfreakmusic.com)
+Müzik [Monplaisir](https://loyaltyfreakmusic.com)
 
-Extra code by [Spacie](https://spacie.me)
+Ek kod [Spacie](https://spacie.me)
 
-**Sound Effects from FreeSound.org (Creative Commons)**
+**FreeSound.org'dan Ses Efektleri (Creative Commons)**
 
 * [Intro Scream](https://freesound.org/people/analogchill/sounds/35716/) by MaderaDelEste Films
 * [Dramatic Hit](https://freesound.org/people/qubodup/sounds/222517/) by qubodup
@@ -81,19 +81,19 @@ Extra code by [Spacie](https://spacie.me)
 * [Bottle on Concrete](https://freesound.org/people/13GPanska_Gorbusinova_Anna/sounds/377986/) by 13GPanska\_Gorbusinova\_Anna
 * [Cartoon Running](https://freesound.org/people/Mountain852/sounds/365830/) by Mountain852
 
-**Sound Effects from Kenney.nl (All Creative Commons Zero)**
+**Kenney.nl'den Ses Efektleri (All Creative Commons Zero)**
 
 * [Digital Audio Pack](https://kenney.nl/assets/digital-audio)
 * [RPG Audio Pack](https://kenney.nl/assets/rpg-audio)
 * [UI Audio Pack](https://kenney.nl/assets/ui-audio)
 
-**Copyrighted Sounds That I Really Hope Count As Fair Use:**
+**Adil Kullanım Olarak Sayılmasını Umduğum Telif Hakkıyla Korunan Sesler:**
 
 * The Pokémon theme song is © The Pokémon Company. I used a ~22s  instrumental clip for a parody song about Tinder.
 * The "Hadouken!" sound is © Capcom. I used it as parody for the anxiety wolf's Special Attack.
 
 
-**Open Source Libraries**
+**Açık Kaynaklı Kütüphaneler**
 
 * [Howler.js](https://howlerjs.com/) by James Simpsson for sounds
 * [MinPubSub](https://github.com/daniellmb/MinPubSub) by Daniel Lamb for pub/sub
@@ -101,15 +101,15 @@ Extra code by [Spacie](https://spacie.me)
 * [Simple Sharing Buttons](https://simplesharingbuttons.com/) by Stefan Bohacek
 * [Ceaser](https://matthewlein.com/tools/ceaser) by Matthew Lein for CSS animation
 
-**Thank you to my playtesters!**
+**Oyunu test edenlere teşekkürler!**
 
 B Cavello, EmilyKate McDonough, Glen Chiacchieri, Mikayla Hutchinson, Monica Srivastava, Rowan, Srini Kadamati
 
-**And of course, thank you to the generous support of [my fans on Patreon.](https://www.patreon.com/ncase)** Luv y'all <3
+**Ve tabii ki [Patreon'daki fanlarıma] destekleri için teşekkür ederim(https://www.patreon.com/ncase)** Luv y'all <3
 
-## How To Translate
+## Çeviri Nasıl Yapılır
 
-**TRANSLATIONS COMPLETE:** 
+**TAMAMLANMIŞ ÇEVİRİLER:** 
 [Русский](https://notdotteam.github.io/anxiety/),
 [Português do Brasil](https://lucasgcb.github.io/anxiety/),
 [Deutsch](https://jonasreich.github.io/anxiety/),
@@ -118,61 +118,61 @@ B Cavello, EmilyKate McDonough, Glen Chiacchieri, Mikayla Hutchinson, Monica Sri
 [中文](https://z-lyen.github.io/anxiety/),
 [中文（臺灣）](https://audreyt.github.io/anxiety/),
 
-Okay. I super, super seriously apologize in advance.
+Tamam. Şimdiden çok, ama çok özür dilerim.
 
-Translating this thing will *suck.*
+Bunu çevirmek tam bir *baş ağrısı* olacak.
 
-Thus, I highly recommend collaborating online on a translation! There's about 9,000 words to translate, the rules of what to translate or not are a bit weird, and you'll need to edit some images. But if you're still up for it...
+Bu nedenle, bir çeviri üzerinde işbirliği yapmanızı şiddetle tavsiye ederim! Çevrilecek yaklaşık 9.000 sözcük var, neyin çevrilip çevrilmediğinin kuralları biraz garip ve bazı resimleri düzenlemeniz gerekecek. Ama hala hazırsan...
 
-### Step 0:
+### Adım 0:
 
-[Check the existing issues](https://github.com/ncase/anxiety/issues?utf8=✓&q=is%3Aissue+is%3Aopen+translation) to see if everyone else has already started your desired translation. If someone already started, go help them! :)
+Çeviri yapmak istediğiniz dile dair yapılan bir çalışma olup olmadığını görmek için [açılmış başlıklara bakın](https://github.com/ncase/anxiety/issues?utf8=✓&q=is%3Aissue+is%3Aopen+translation). Eğer birisi çeviriye başladı ise, ona yardım edin :)
 
-### Step 1:
+### Adım 1:
 
-[Make a fork](https://help.github.com/en/articles/fork-a-repo) on Github!
+Github üzerinde [fork](https://help.github.com/en/articles/fork-a-repo) oluşturun!
 
-### Step 2:
+### Adım 2:
 
-*POST A GITHUB ISSUE WITH A LINK TO YOUR FORK.* This will let folks a) know a translation is in process, and b) let *you* find collaborators for the translation process!
+*BİR GİTHUB BAŞLIĞI OLUŞTURUN VE FORK BAĞLANTINIZI YAYINLAYIN.* Bu, insanların a) bir çevirinin devam ettiğini bilmelerini ve b) çeviri süreci için *sizin* ortak çalışanlar bulmanızı sağlar!
 
-### Step 3:
+### Adım 3:
 
-Translate all the Markdown files in `/scenes`. (about 9000 words) Personally I use [MacDown](https://macdown.uranusjr.com/) (Mac only), but there's [a whole bunch of other free open-source Markdown editors](https://opensource.com/article/18/11/markdown-editors).
+`/scenes` altındaki tüm Markdown dosyalarını çevirin. (yaklaşık 9000 sözcük) Şahsen tercihim [MacDown](https://macdown.uranusjr.com/) (sadece Mac), ama etrafta [bir sürü açık-kaynaklı metin editörü mevcut](https://opensource.com/article/18/11/markdown-editors).
 
-**THERE ARE RULES OF WHAT TO TRANSLATE OR NOT.** It's probably best to show it with examples. Excuse my terrible French...
+**NEYİ ÇEVRİLİP NEYİN ÇEVRİLMEYECEĞİNE DAİR KURALLAR VAR.** En iyisi göstermek olacaktır. Kötü Fransızca'mı mazur görün...
 
-Original English:
+İngilizce hali:
 
 ![](misc/english.png)
 
-Translated to "Nicky's Attempt At French":
+"Nicky'nin Fransızca Çeviri Denemesi" hali :
 
 ![](misc/french.png)
 
-As you can see, you *don't* translate everything.
+Gördüğünüz gibi herşey *çevrilmiyor*.
 
-**Just translate:**
+**Çevirisi yapılacaklar:**
 
-* Anything after a letter + colon. This changes a dialogue *spoken*. "h:" is hong the human, "b:" is beebee the wolf, etc.
-* Anything in the square brackets of `[words words words](#section_name)`. This changes the dialogue *choices.*
+* Bir harf + iki nokta sonrası kısımlar. *Konuşulan* diyalogları değiştirir.. "h:" insan hong, "b:" kurt beebee, vs.
+* Kare parantez içindeki kısımlar `[sözcük sözcük sözcük](#bölüm_adı)`. *Seçilen* diyalogları değiştirir.
 
-**Do NOT translate:**
+**Çevirisi YAPILMAYACAKLAR:**
 
-* Anything within ``` `code({with:"backticks",like:"this"});` ```. This is the code that runs between dialogue lines.
-* Anything within ``` {{ these brackets either }} ```. These allow for changes in dialogue based on previous choices (see example above).
-* Any line that starts with a `#`. That's a section name.
-* The part in the *round* brackets in `[words words words](#section_name)`. That's the name of the section you'll go to if you select that dialogue choice.
+* ``` `kod({ters_tikler:"dahil",bunun:"gibi"});` ```. Bu, diyaloglar arasında çalışan koddur.
+* ``` {{ köşeli parantezler dahil }} ``` bunun içerisindeki kısımlar. Bunlar, önceki seçimlere dayalı olarak diyalogda değişiklikleri sağlar (yukarıdaki örneğe bakın).
+* `#` ile başlayan satırlar. Bölüm adını gösterir.
+* *yuvarlak* parantez içindeki "[sözcük sözcük sözcük](#bölüm_adı)" kısım. O diyalogu seçmeniz halinde gideceğiniz bölümün adını gösterir.
 
-**Suggestions:**
+**Tavsiyeler:**
 
-* Try *NOT* to make any translated line go too much longer than the original. Otherwise dialogue may go off-screen. Paraphrase or cut words if you have to.
-* Use asterisks for `*emphasis*`. This will italicize the words in the dialogue! (This is standard Markdown syntax)
-* Try to keep pronouns gender-neutral (e.g. English's singular "they") for referring to characters or the player. If your target language doesn't allow that, then flip a coin for each character's gender, or something.
+* Çevrilmiş satırları orijinal halinden çok da uzun *tutmamaya* çalış. Diğer türlü diyaloglar ekran dışına çıkabilir. Gerekirse sözcükleri başka sözcüklerle ifade edin veya kelimeleri kesin.
+* `*vurgu*` için yıldız kullanın. Bu, diyalogdaki sözcükleri italik hale getirecektir! (standart Markdown sözdizimidir)
+* Karakter veya oyuncu hakkında konuşurken cinsiyetten bağımsız zamirler kullanın (örneğin İngilizce'deki "they"). Çevirdiğiniz dil buna izin vermiyorsa, karakter cinsiyeti veya başka bir şey için yazı tura atın.
 
-Oh but of *course* that's not all the rules! Two more rules, for swear words:
+Ama *tabii ki* tüm kurallar bunlar değil! Küfürler için iki kural daha var:
 
-Original English:
+İngilizce hali:
 
 ![](misc/swear_english.png)
 
@@ -180,74 +180,73 @@ Excusez mon français:
 
 ![](misc/swear_french.png)
 
-**Rules for translating swears:**
+**Küfürleri çevirme kuralları:**
 
-* Put all swear words in `^fucking^ carat symbols`. This is so they can be replaced with @#&!✩@ in the Cuss-Free Mode.
-* Beebee the wolf (almost) never swears. They swear a couple times in the perverted Pokémon parody song but that's it. Otherwise, they say "Heck" and "Dang".
+* Tüm küfürleri `^siktir^ karat sembolleri arasında koyun`. Böylece küfürsüz modda @#&!✩@ ile değiştirilebilir.
+* Kurt Beebee (neredeyse) asla küfür etmez. Erotik Pokémon parodi şarkısında bir iki yerde küfür ediyor ama hepsi bu kadar. Diğer türlü "Kahretsin" ve "Nalet" sözcüklerini kullanıyor.
 
-**One more dumb rule: Don't translate any words within #pounds#.**
+**Saçma bir kural daha: #kareler# içerisindeki sözcükleri çevirmeyin.**
 
-Like so. English:
+Örnek verirsek. İngilizce:
 
 ![](misc/hash_english.png)
 
-French:
+Fransızca:
 
 ![](misc/hash_french.png)
 
-This was a bad system I have made.
+Bu benim yaptığım kötü bir sistem.
 
-P.S: To jump around different scenes, type `Game.debug()` into the Javascript console.
-If you hover over a gray box on the left, you'll see a sidebar that lets you jump to any scene.
-(Note: this make break stuff!) You can also uncomment the lines in `main.js` to test out the game
-starting from different chapters.
+NOT: Farklı sahneler arasında dolaşmak için, Javascript konsoluna `Game.debug()` yazın.
+Soldaki gri kutunun üzerine gelirseniz, farklı sahnelere atlamanızı sağlayacak bir kenar çubuğu göreceksiniz.
+(NOT: bu oyunu bozacaktır!) Oyuna farklı bölümlerden başlayarak test etmek için `main.js` dosyasındaki yorum satırlarını değiştirebilirsiniz.
 
-### Step 4:
+### Adım 4:
 
-Translate `index.html`. (about 70 words) There's further instructions in that file itself. (Feel free to add yourself + your collaborators as translators in the top-left corner!)
+`index.html` dosyasını çevirin. (yaklaşık 70 sözcük) Dosyanın içinde ileri talimatlar mevcut. (kendini + ortaklarını çevirmen olarak sol üst tarafa eklemekten çekinme!)
 
-This translates some UI, and helps search engines + social networks understand the page is in your target language.
+Bu, kullanıcı arayüzünün bir kısmını çevirecektir, ve arama motorları + sosyal ağlar sayfanın senin dilinde olduğunu anlamalarını sağlayacaktır.
 
-### Step 5:
+### Adım 5:
 
-Translate the images. This step sucks. You can use an image-editing program like MS Paint or [GIMP](https://www.gimp.org).
+Resimleri çevirin. Bu adım tam bir baş ağrısı. MS Paint ya da [GIMP](https://www.gimp.org) gibi resim-düzenleme programları kullanabilirsiniz.
 
-If you don't feel like re-drawing text, [you can find open-source "handwritten" fonts on Google Fonts](https://fonts.google.com/?category=Handwriting). (I used [Sniglet](https://www.theleagueofmoveabletype.com/sniglet) for some text)
+Eğer sözcükleri tekrar çizmek istemiyorsanız, [açık-kaynaklı "el yazısı" fontlarını Google Fonts'da bulabilirsiniz](https://fonts.google.com/?category=Handwriting). (Bazı metinlerde [Sniglet](https://www.theleagueofmoveabletype.com/sniglet) kullanıyorum)
 
-Images to translate: (about 70 words)
+Çevrilecek resimler: (yaklaşık 70 sözcük)
 
 * `sharing/thumb.png` (so when folks share your game on social media, the thumbnail's in your language! in the same folder, I put a `thumb_no_words.png` image to help you make a new thumbnail.)
 * `sprites/about/cc0.png`
 * `sprites/about/replay.png`
 * `sprites/act4/callback.png`
 * `sprites/credits/end_message.png`
-* `sprites/credits/screens.png` (feel free to add yourself in closing credits as a translator)
+* `sprites/credits/screens.png` (çevirmen olarak kapanış jeneriğine kendinizi eklemekten çekinmeyin)
 * `sprites/credits/starring.png`
 * `sprites/credits/thanks.png`
 * `sprites/intermission/youwin.png`
-* `sprites/intro/intro_logo.png` (feel free to add yourself in opening credits as a translator)
+* `sprites/intro/intro_logo.png` (çevirmen olarak açılış jeneriğine kendinizi eklemekten çekinmeyin)
 * `sprites/ui/fear_captions.png`
 * `sprites/ui/preloader.png`
 
-### Step 6:
+### Adım 6:
 
-Your translated game is DONE! Now you just need to put it online. You can follow [Github Pages's instructions](https://pages.github.com) for free hosting. (it's the same way I'm hosting my game)
+Çevrilmiş oyununuz HAZIR! Şimdi tek yapmanız gereken şey internete yüklemek. Ücretsiz bir şekilde internete yüklemek için [Github'ın Talimatlarını](https://pages.github.com) takip edebilirsiniz. (ben de oyunlarımı böyle internete yüklüyorum)
 
-### (OPTIONAL STEP):
+### (İSTEĞE BAĞLI ADIM STEP):
 
-This game also has a link to a list of Mental Health Tips & Resources, [on a different webpage](https://ncase.me/mental-health). It's not part of the "main" game, but it may still be valuable to make accessible in more languages.
+Bu oyun ayrıca zihinsel sağlık ile ilgili ipuçları ve kaynakların olduğunu listenin linkine sahip, [başka sayfada](https://ncase.me/mental-health). "Ana" oyunun bir parçası değil ama bu listeyi diğer dillerde de erişilebilir yapmak faydalı olabilir.
 
-[The repo & instructions for translating that are here!](https://github.com/ncase/mental-health)
+[Çeviri için gerekli repo ve talimatlar burada!](https://github.com/ncase/mental-health)
 
-### Step 7: TELL ME YOU ARE *DONE* 🎉🎉🎉
+### Adım 7: *BİTİRDİĞİNİZİ* BANA SÖYLEYİN 🎉🎉🎉
 
-Email me at ![](misc/email.png) so I know you're done!
+Bana bu adresten ![](misc/email.png) e-posta yollayın ki bitirdiğinizi bileyim!
 
-Do ***NOT*** send a Pull Request to *this* repo, because that will change the *original* game. I will, however, edit the original game to have a link to your translation!
+*Bu* repo'ya Pull isteği gönder*ME*yin, çünkü *orijinal* oyunu değiştirecektir. Onun yerine ben orijinal oyuna sizin çevirinizi ekleyeceğim!
 
-I'm usually busy and/or bad at email, so it'll take me a while to get around to it, but if I don't respond for a week, ping me again!
+Genelde meşgulüm ve/veya e-postalara dönmek konusunda kötüyüm, bu yüzden işi yapmam biraz zaman alacak, ancak bir hafta içinde yanıt vermezsem bana tekrar ulaşın!
 
-Thank you you're the beeeeeest 💖🐺💖
+Teşekkürler, sen harikasın 💖🐺💖
 
 
 
