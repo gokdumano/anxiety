@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: VE BU DA ÝNSANIN ANKSÝYETESÝ
+n: VE BU DA Ä°NSANIN ANKSÄ°YETESÄ°
 
-n: _SEN_ ANKSÝYETESÝN
+n: _SEN_ ANKSÄ°YETESÄ°N
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)

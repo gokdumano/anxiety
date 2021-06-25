@@ -84,7 +84,7 @@ bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Evet acaba neden oturup düşüncelerime daha çok kulak vermiyorum acaba.
+h: Evet neden oturup düşüncelerime daha çok kulak vermiyorum acaba.
 
 `hong({eyes:"neutral"});`
 
@@ -94,7 +94,7 @@ n: ÇABUK, ONU *TEHLİKEYE* KARŞI UYAR!
 bb({eyes:"look"});
 ```
 
-[Olamaz, şu korkunç haberlere bak!](#act1d_news)
+[Olamaz, şu korkunç habere bak!](#act1d_news)
 
 [Olamaz, bu tweet *bize* bir gönderme mi?](#act1d_subtweet)
 

@@ -15,19 +15,19 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if !_.PLAYED_BEFORE}}
-[#play1# BAŞLA! #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[#play1# PLAY! #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act2"}}
-[_DEVAM ET_: Parti](#act2) `publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[_CONTINUE_: The Party](#act2) `publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act3"}}
-[_DEVAM ET_: Diğer Parti](#act3) `publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[_CONTINUE_: The Other Party](#act3) `publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act4"}}
-[_DEVAM ET_: Diğer Sandviç](#act4) `publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[_CONTINUE_: The Other Sandwich](#act4) `publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="replay"}}
@@ -35,48 +35,48 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="replay"}}
-[#play1# TEKRAR OYNA! #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[#play1# REPLAY! #play2#](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE}}
-[Bölüm Seç](#chapter-select) `Game.OVERRIDE_CHOICE_LINE=true;`
+[Chapter Select](#chapter-select) `Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
-[(içerik notları)](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
+[(content notes)](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
 
 # chapter-select
 
 `publish("HACK_chselect");`
 
-[I. Sandviç](#intro-start) `publish("HACK_chselect_end"); publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[I. The Sandwich](#intro-start) `publish("HACK_chselect_end"); publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 
-[II. Parti](#act2) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[II. The Party](#act2) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
 
 {{if window.localStorage.act3}}
-[III. Diğer Parti](#act3) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[III. The Other Party](#act3) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.act3}}
-[III. Diğer Parti]()
+[III. The Other Party]()
 {{/if}}
 
 {{if window.localStorage.act4}}
-[IV. Diğer Sandviç](#act4) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[IV. The Other Sandwich](#act4) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.act4}}
-[IV. Diğer Sandviç]()
+[III. The Other Sandwich]()
 {{/if}}
 
 {{if window.localStorage.credits}}
-[V. Jenerik](#to-credits) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
+[V. Credits](#to-credits) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.credits}}
-[V. Jenerik]()
+[V. Credits]()
 {{/if}}
 
-[(ana menü)](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
+[(main menu)](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # to-credits
 
@@ -92,17 +92,17 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Merhaba! Bu bir "oyundan" ziyade etkileşimli bir hikaye. Umarım okumayı seviyorsundur! 
+n3: Welcome! This is less of a "game," more of an interactive story. Hope you like reading, sucka!
 
-n3: Başlamadan önce, hangisini daha rahat okuyorsun?
+n3: So before we start, how would *you* like to read?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Harika! Unutma: ayarları aşağıdaki ⚙ ikonunu kullanarak değiştirebilirsin. Ayrıca, her bölüm başı oyun kaydedilir!
+n3: Great! Note: you can always change options with the ⚙ icon below. Also, game auto-saves at each chapter!
 
-n3: Pekala, hikayemize başlayalım...
+n3: Now, let's begin our story...
 
 `clearText()`
 
@@ -110,7 +110,7 @@ n3: Pekala, hikayemize başlayalım...
 
 `publish("intro-to-game-2")`
 
-n2: BU BİR İNSAN
+n2: THIS IS A HUMAN
 
 (...600)
 
