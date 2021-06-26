@@ -6,7 +6,7 @@ Game.WORDS_HEIGHT_BOTTOM = 205;
 sfx("cheers");
 ```
 
-r: Cheers!
+r: Sağlığına!
 
 ```
 publish("act3",["roofhunter",1]);
@@ -23,14 +23,14 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* that hits the spot.
+h2: *Ah* bu ilaç gibi geldi.
 
 ```
 publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: You know, kid...
+r: Biliyorsun,tatlım ...
 
 ```
 publish("act3",["roofhunter",3]);
