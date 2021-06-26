@@ -51,7 +51,7 @@ publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: İyilik yaptığım için minnetarım, ve benim canavarı öldürdüğüm gibi seninkini de öldürmene yardım edebildiğim için.
+r: İyilik yaptığım için ve benim canavarı öldürdüğüm gibi seninkini de öldürmene yardım edebildiğim için minnettarım.
 ```
 publish("act3",["roofhunter",2]);
 ```
