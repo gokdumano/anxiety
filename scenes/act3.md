@@ -30,34 +30,33 @@ publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Biliyorsun,tatlım ...
+r: İşi biliyorsun, ufaklık...
 
 ```
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: Specifically, the spots hit are my left and right amygdala.
+h2: Özellikle, sağ ve sol amigdalalarıma iyi geldi.
 
 ```
 publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: You remind me of myself when I was younger. Back when I was tormented by the animal in my head.
+r: Bana gençliğimi hatırlatıyorsun. Kafamdaki hayvan tarafından acı çektiğim zamanları...
 
 ```
 publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.
-
+r: İyilik yaptığım için minnetarım, ve benim canavarı öldürdüğüm gibi seninkini de öldürmene yardım edebildiğim için.
 ```
 publish("act3",["roofhunter",2]);
 ```
 
-r: Hey, quick question: truth or da--
+r: Hey, küçük bir soru: Doğruluk mu cesa--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -65,7 +64,7 @@ publish("act3",["roofhong",7]);
 publish("act3-alpha", ["dizzyhong",0]);
 ```
 
-h2: DARE!
+h2: CESARETLİK!
 
 ```
 publish("act3-alpha", ["dizzyhong",1]);
@@ -73,14 +72,14 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! Good.
+r: Haha! Harika.
 
 ```
 publish("act3",["roofhunter",21]);
 publish("act3",["roofhong",4]);
 ```
 
-r: Ok. You see that baby-blue swimming pool down there?
+r: Tamam. Aşağıdaki açık mavi yüzme havuzunu görüyor musun?
 
 ```
 publish("act3-alpha", ["dizzyhong",0]);
@@ -88,14 +87,14 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",9]);
 ```
 
-h2: Yeah? Six floors down?
+h2: Evet? Altı kat aşağıdaki mi?
 
 ```
 publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",8]);
 ```
 
-r: Jump in.
+r: Atla oraya.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -108,39 +107,39 @@ h2: ...
 publish("act3",["roofhong",11]);
 ```
 
-h2: Wait, what?
+h2: Bekle, ne?
 
 ```
 publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: Hayvanın söylenmeye başladı, değil mi?
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo it's dangerous, don't do iiiiit.*
+r: *Oh hayıııır bu tehlikeli, bunu yapmaaaa.*
 
 ```
 publish("act3",["roofhunter",22]);
 ```
 
-r: But that's exactly why we need death-defying thrills! Party hard! Carpe diem! Snort coke off a hooker's ^ass^, #YOLO!
+r: Ama tam da bu yüzden ölüme inat heyecanlara ihtiyacımız var.! Kop kop! Anı Yaşa! Bir fahişenin ^kıç^ından kokaini çek, #YOLO!
 
 ```
 publish("act3",["roofhunter",10]);
 ```
 
-r: Show that animal we don't give two *^dick^s* about its ^bitch^ing! Jump in.
+r: O hayvana ^sürtük^lüğü hakkında ^sik^lemediğimizi göster! Atla oraya.
 
 ```
 publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
 
-h2: Uh, but sometimes, um... fear has a point...
+h2: Uh, ama bazen, um... korku da bir sebep...
 
 ```
 publish("act3",["roofhunter",5]);
@@ -156,43 +155,43 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: I'm sorry, did you fall for that McMindfulness propaganda that claims feeling bad is *good?*
+r: Üzgünüm, kendini kötü hissetmenin *iyi* olduğunu savunan McMindfulness propagandasına mı kapıldın?
 
 ```
 publish("act3",["roofhunter",17]);
 ```
 
-r: The ^assholes^ who run this world give the rest of *us* anxiety and depression,
+r: Bu dünyayı yöneten ^pislikler^ geri kalanımıza anksiyete ve depresyon veriyor,
 
 ```
 publish("act3",["roofhunter",18]);
 ```
 
-r: Then make TED Talks to tell us to "accept" being ^fucked^ over, and "embrace" that sadistic demon in our heads!
+r: O zaman TED Talks'ta bize delirmeyi kabul etmemizi ve kafamızın içindeki o sadist iblisi kucaklamamızı söyleyin!
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Kid, I know that *you* know that animal *hurts* people like us. It *tortures* people like us.
+r: Ufaklık, O hayvanın bizim gibi insanlarını *incittiğini* *sen* de biliyorsun. O bizim gibilere *acı çektiriyor*.
 
 ```
 publish("act3",["roofhunter",19]);
 ```
 
-r: It's not our friend. It's a rabid beast, which either needs to be *tranquilized*,
+r: O bizim arkadaşımız değil. O kuduruk bir canavar, ya sakinleştirilmesi gerekiyor,
 
 ```
 publish("act3",["roofhunter",20]);
 ```
 
-r: Or have a *bullet put in its skull*.
+r: Ya da *kafasına kurşun sıkılması*.
 
 ```
 publish("act3",["roofhunter",27]);
 ```
 
-r: Otherwise, you're going to let it win.
+r: Aksi takdirde, onun kazanmasına izin vereceksin.
 
 ```
 publish("act3",["roofhunter",31]);
@@ -200,7 +199,7 @@ publish("act3",["roofhong",14]);
 publish("act3",["dd",2]);
 ```
 
-h2: No. You're wrong.
+h2: Hayır. Yanılıyorsun.
 
 ```
 publish("act3",["roofhunter",13]);
@@ -210,7 +209,7 @@ music('battle_dark', {volume:1.0}, function(){
 });
 ```
 
-h2: I'm not going to let it win.
+h2: Kazanmasına izin vermeyeceğim.
 
 ```
 publish("act3",["roofhunter",25]);
@@ -219,7 +218,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: ^Fuck^ yeah! I believe in you, babe! Kill it! <3
+r: ^Siktir^ harika! İnanıyorum sana, bebeğim! Öldür onu! <3
 
 (#act3a)
 
@@ -240,13 +239,13 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: no no no no no no
+b: hayır hayır hayır hayır
 
-n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*
+n: BU BÖLÜMÜN İKİ AYRI SONU VAR. BİRİSİ *ÇOK, ÇOK KÖTÜ.*
 
-b: NO NO NO NO NO NO NO NO NO NO NO NO NO NO
+b: HAYIR HAYIR HAYIR HAYIR HAYIR HAYIR HAYIR
 
-n: CHOOSE WISELY. PROTECT YOUR HUMAN
+n: AKILLICA SEÇ. İNSANINI KORU.
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
@@ -254,24 +253,24 @@ b: AAAAAAAAAAAAAAAAAA
 
 `bb({ mouth:"normal" });`
 
-n: GOOD LUCK
+n: İYİ ŞANSLAR.
 
 ```
 Game.clearText();
 bb({ eyes:"start" });
 ```
 
-[Human, you could actually DIE here!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
+[İnsan, atlarsan ÖLEBİLİRSİN!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is stupid and self-destructive!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
+[Yaptığın aptalca ve zarar verici!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[These sickos aren't really your friends!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
+[Bu sapıklar senin gerçek arkadaşların değil!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: H--
+b: İ--
 
 (#act3a_after)
 
@@ -279,7 +278,7 @@ b: H--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: Y--
 
 (#act3a_after)
 
@@ -287,7 +286,7 @@ b: T--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: B--
 
 (#act3a_after)
 
@@ -307,7 +306,7 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You know, I might've believed you... if you hadn't tried that a zillion times before.
+h: Biliyor musun?, sana inanabilirdim... eğer zibilyon kere denemiş olmasaydın.
 
 h: You're the wolf who cried wolf.
 
