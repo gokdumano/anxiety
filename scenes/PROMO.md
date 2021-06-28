@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: BU DA İNSANIN KAYGISI
+n: BU DA İNSANIN ANKSİYETESİ
 
-n: _SEN_ KAYGISIN
+n: _SEN_ ANKSİYETESİN
 
 (#act1_normal)
 

@@ -16,7 +16,7 @@ Game.FORCE_CANT_SKIP = true;
 publish("show_stats");
 ```
 
-n2: FEARS THIS ROUND:
+n2: BU BÖLÜMDEKİ KORKULAR:
 
 i: #harm# *İNCİNMEK:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 

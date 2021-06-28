@@ -32,7 +32,7 @@ n: GÖREVİN İNSANINI *TEHLİKEDEN* KORUMAK
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: HATTA, ŞU ANDA BU OYUNUN TEKRAR OYNAMAK ONU *TEHLİKEYE* ATIYOR
+n: HATTA, ŞU ANDA BU OYUNU TEKRAR OYNAMAK ONU *TEHLİKEYE* ATIYOR
 
 n: ÇABUK, UYAR ONU!
 
@@ -47,7 +47,7 @@ b: İnsan! Dinle, tehlikedeyiz! Oyuncu...
 [...bize yine işkence edecek!](#act1_replay_torture)
 
 [...alternatif bir son bulamayacak!](#act1_replay_alternate)
-"
+
 [...hikayenin akışına uymayacak!](#act1_replay_dissonance)
 
 # act1_replay_torture
@@ -71,7 +71,7 @@ b: Bize parti sahibini yumruklat*MA*yacaklar!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: Bize sempatik anti-kötü parti sahibini yumruklatacaklar!
+b: Bize sempatik anti-kötü parti sahibini yumruklatacak!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
@@ -96,7 +96,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Tabii ki, bir *bütün* olarak hikaye aynı, fakat her bölümün iki olası sou var, ayrıca dallanıp budaklanan diyalog-- 
+h: Tabii ki, bir *bütün* olarak hikaye aynı, fakat her bölümün iki olası sonu var, ayrıca dallanıp budaklanan diyalog-- 
 
 `bb({body:"fear"});`
 
@@ -112,7 +112,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Müstehceh bir ne?
+h: Müstehcen bir ne?
 
 `bb({eyes:"normal"});`
 
@@ -124,11 +124,11 @@ b: Ama oyunu tekrar oynamak aynı sonu verecek, *SEÇİM*lerinin değersiz oldu�
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Dolayısıyla oyunun hikayesi ve mekanikleri arasında bir çelişki gösterecek,
+b: Dolayısıyla oyunun hikayesi ve mekanikleri arasında bir çelişki oluşacak,
 
 `bb({eyes:"fear"});`
 
-b: Böylece bu anlatı evreninin kumaşı yırtılacak,
+b: Böylece bu hikaye evreni saran örtü yırtılacak,
 
 `bb({body:"fear"});`
 
@@ -170,7 +170,7 @@ h: Neyse hadi karaktere geri dönelim.
 Game.clearText();
 ```
 
-n4: ( _KAYGININ_ FALAN FİLAN _KORKUNA_ EN BENZERİ FALAN FİLAN NASIL GİDİYOR BİLİYORSUN)
+n4: ( _ANKSİYETENİN_ FALAN FİLAN _KORKUNA_ EN BENZERİ FALAN FİLAN NASIL GİDİYOR BİLİYORSUN)
 
 ```
 sfx("squeak");
@@ -194,7 +194,7 @@ n: GÖREVİN İNSANINI *TEHLİKEDEN* KORUMAK
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: HATTA, ŞU ANDA BU SANVDİÇ ONU *TEHLİKEYE* ATIYOR
+n: HATTA, ŞU ANDA BU SANDVİÇ ONU *TEHLİKEYE* ATIYOR
 
 n: ÇABUK, UYAR ONU!
 
@@ -208,7 +208,7 @@ b: İnsan! Dinle, tehlikedeyiz! Tehlike de...
 
 `bb({body:"squeeze"})`
 
-n4: ( _KAYGININ_ OYNAMASINA İZİN VER! _KORKUNA_ EN BENZERİNİ SEÇ)
+n4: ( _ANKSİYETENİN_ OYNAMASINA İZİN VER! _KORKUNA_ EN BENZERİNİ SEÇ)
 
 (#act1_normal_choice)
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Yalnızlığın, günde 15 sigara içmekle aynı derecede erken ölümle ilişkilendirildiğini bilmiyor musun??-
+b: Yalnızlığın, günde 15 sigara içmekle aynı derecede erken ölümle ilişkilendirildiğini bilmiyor musun?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -349,7 +349,7 @@ n: SÜPER ETKİLİ
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Gördün mü, insan? Ben senin sadık muhafız-kurtunum!
+b: Gördün mü, insan? Ben senin sadık muhafız-kurdunum!
 
 `bb({body:"pride_talk"});`
 
@@ -416,7 +416,7 @@ h: Ha. Facebook'da bu hafta sonu bir parti olduğu söylüyor.
 
 `bb({eyes:"uncertain"});`
 
-b: Bu tufah tip *her* hafta sonu parti vermiyor mu?
+b: Bu tuhaf tip *her* hafta sonu parti vermiyor mu?
 
 `bb({eyes:"uncertain_right"});`
 
