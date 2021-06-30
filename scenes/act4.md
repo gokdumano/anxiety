@@ -239,7 +239,7 @@ h: Ne *öğrendik*? *Ben* aptaldım, "arkadaşlarım" *beni* kullanıyordu, ve n
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. Sigorta planımın "aptal olmayı" kapsadığını sanmıyorum.
+h: Doğru. Sigorta planımın "aptal olmayı" kapsadığını sanmıyorum.
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
@@ -479,52 +479,52 @@ b: Tekrar, sana dönersek insan,. Ne düşünüyorsun?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Başka düşüncelerin var mı, insan?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[You're right. So let's protect ourselves.](#act4_harm_skills)
+[Haklısın. O zaman birbirimizi koruyalım.](#act4_harm_skills)
 
-[Let's expose ourselves to *more* danger.](#act4_harm_exposure)
+[Kendimizi daha fazla tehlikeye maruz bırakalım.](#act4_harm_exposure)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "physical safety";`
+[Teşekkür ederim.](#act4_thanks) `_.thanks_for = "physical safety";`
 
 # act4_harm_skills
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: But... how? I have fangs and claws, but I'm just a metaphor.
+b: Ama... nasıl? Benim dişlerim ve pençelerim var ama ben sadece metaforum.
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+h: Kendimizi korumayı mı öğreneceğiz? Birbirini koruyan bir topluluğa mı katılacağız? Genel sağlığımızı ve kişisel sınırlarımızı mı iyileştireceğiz?
 
 ```
 bb({ eyes:"annoyed_r" });
 hong({ body:"normal", eyes:"normal" });
 ```
 
-b: Maybe, but...
+b: Belki, ama...
 
-[Where do we even start?](#act4_harm_skills_start)
+[Nereden başlayacağız?](#act4_harm_skills_start)
 
-[What if they still don't work?](#act4_harm_skills_work)
+[Eğer hâlâ işe yaramazlarsa?](#act4_harm_skills_work)
 
-[What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[Ya "güvenlik" konusunda aşırıya kaçarsak?](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
 `bb({ eyes:"sad_d" })`
 
-b: There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
+b: Yapılacak çok şey var, kendimiz hakkında düzeltmemiz gereken çok şey var. Nereden *başlıyoruz*?
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: We're beginning right now.
+h: Şimdi işe koyuluyoruz.
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
@@ -535,19 +535,19 @@ bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
+h: Şu an iyi bir iletişim pratiği yapıyoruz. Bu daha az yanlış pozitif ile tehlikeyi daha iyi tespit etmemize yardımcı olur,
 
 `hong({ eyes:"surprise" });`
 
-h: And *that* will help protect us from harm!
+h: Ve *bu* bizi incinmekten koruyacak!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Therefore: this *is* self-defense training.
+h: Bu nedenle: bu *bir* kendini savunma eğitimidir.
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: Huh. Daha fazlasını bekliyordum:
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -567,26 +567,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: Doğru, kendimizi %100 korumanın bir yolu yok...
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: Ama %1'lik bir iyileştirme bile bir anlamı var, değil mi?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: Sen bardağı %99 boş değil, %1 dolu olarak görüyorsunuz.
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: Eğer bir çölde mahsur kaldıysa o suyun hâlâ değeri vardır.
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: Pekala. O zaman dibine kadar içerim.
 
 (#act4_something_else)
 
@@ -622,29 +622,29 @@ b: Thank you for making your statements recursively self-consistent.
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
 
-b: *WHAT*
+b: *NE*
 
 ```
 bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: I mean, let's say a dog is scared of thunder.
+h: Demek istediğim, diyelim ki köpek gök gürültüsünden korkuyor.
 
 `hong({ body:"hands_1" });`
 
-h: One trick trainers use is to play a recording of thunder at a low volume, then give the dog a treat for staying calm.
+h: Eğitmenlerin kullandığı bir numara, gök gürültüsü kısık bir sesle kaydedilir ve köpeğe sakinleşmesi için ödül olarak verilir.
 
 `hong({ body:"hands_2" });`
 
-h: Over several days, the trainer raises the volume bit by bit, until the dog has overcome their fear of thunder.
+h: Birkaç gün boyunca eğitmen, köpek gök gürültüsü korkusunu yenene kadar sesi azar azar yükseltir.
 
 ```
 hong({ body:"normal", eyes:"surprise" });
 bb({ mouth:"normal", eyes:"normal" });
 ```
 
-h: It's called exposure therapy!
+h: Buna mazur kalma teorisi denir!
 
 `hong({ body:"point", eyes:"normal" });`
 
