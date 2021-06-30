@@ -140,7 +140,7 @@ Github üzerinde [fork](https://help.github.com/en/articles/fork-a-repo) oluştu
 
 `/scenes` altındaki tüm Markdown dosyalarını çevirin. (yaklaşık 9000 sözcük) Şahsen tercihim [MacDown](https://macdown.uranusjr.com/) (sadece Mac), ama etrafta [bir sürü açık-kaynaklı metin editörü mevcut](https://opensource.com/article/18/11/markdown-editors).
 
-**NEYİ ÇEVRİLİP NEYİN ÇEVRİLMEYECEĞİNE DAİR KURALLAR VAR.** En iyisi göstermek olacaktır. Kötü Fransızca'mı mazur görün...
+**NEYİN ÇEVRİLİP NEYİN ÇEVRİLMEYECEĞİNE DAİR KURALLAR VAR.** En iyisi göstermek olacaktır. Kötü Fransızca'mı mazur görün...
 
 İngilizce hali:
 
