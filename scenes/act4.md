@@ -208,42 +208,42 @@ hong({body:"sigh_2"});
 bb({eyes:"look_down"});
 ```
 
-h: *sigh*
+h: *ahh*
 
 ```
 hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: Yani bu hikayeden çıkarılacak sonuç neydi?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: Ne *öğrendik*? *Ben* aptaldım, "arkadaşlarım" *beni* kullanıyordu, ve neredeyse ölüyorduk.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[Evet, hastane faturalarından bahsetmiyorum bile.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[Evet, karaciğer hasarından bahsetmiyorum bile.](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[Evet, bu en kötü senaryoydu.](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[Evet, ben haklıydım.](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: Right. Sigorta planımın "aptal olmayı" kapsadığını sanmıyorum.
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: Ama yine de... hayatta kaldık!
 
 `hong({eyes:"normal"});`
 
@@ -255,11 +255,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: Kesinlikle ömrümüzden birkaç yıl eksilttik...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
+b: Ama en azından hala bir yaşam umudumuz var! Hayatta kaldık!
 
 ```
 hong({eyes:"surprise"});
@@ -274,13 +274,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: Ve an azından...
 
 h: Hm?
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
+b: Hayatta kaldık!
 
 (#act4b)
 
@@ -288,7 +288,7 @@ b: We survived!
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: Ama... Sen de haklıydın.
 
 `hong({eyes:"surprise"});`
 
@@ -296,11 +296,11 @@ h: Hm?
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: Ben kurt diye ağlayan kurttum, ve sen – haklı olarak – bana inanmadın.
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: Ve en azından, hayatta kaldık!
 
 (#act4b)
 
@@ -311,16 +311,16 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: Her şeye rağmen, hala buradayız.
 
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: You seem pretty calm considering we just had a near-death experience.
+h: Az önce ölüme yakın bir deneyim yaşadığımızı düşünürsek oldukça sakin görünüyorsun.
 {{/if}}
 
 {{if !_.INJURED}}
-h: You seem pretty calm considering we just had a *near*-near-death experience.
+h: Az önce ölüme *yakın* bir deneyim yaşadığımızı düşünürsek oldukça sakin görünüyorsun.
 {{/if}}
 
 ```
@@ -328,21 +328,21 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Well, it makes everything else less scary in comparison. It's also got me thinking.
+b: Eh, diğer her şeyi kıyasladığında daha az korkunç yapıyor. Ayrıca bu beni de düşündürdü.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: If me fighting you sucks, because it doesn't protect you...
+b: Eğer seninle savaşırsam iyi olmaz, çünkü bu seni korumuyor...
 
-h: But me fighting you *also* sucks, because it just makes you yell louder...
+h: Ama benim seninle savaşmam *da* kötü, çünkü bu seni daha da bağırtıyor...
 
 `bb({eyes:"normal_r"})`
 
-b: Then maybe...
+b: o zaman, belki...
 
 `bb({eyes:"normal"})`
 
-h: Maybe we don't have to fight.
+h: Belki savaşmamız gerekmez.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -381,15 +381,15 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
+b: Ben Büyük Kötü Kurt değilim. Ama ben bir muhafız-kurt da değilim.
 
 `bb({eyes:"sad_d"})`
 
-b: I'm a battered shelter dog.
+b: Ben hırpalanmış bir barınak köpeğiyim.
 
 `bb({eyes:"sad"})`
 
-b: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
+b: Zor şeyler atlattık. Belki travma ya da ihmal edilmek, bu yüzden bazen aşırı tepki verir ve giderim:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -400,7 +400,7 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: YAP YAP YAP YAP YAP
+b: HAV HAV HAV HAV HAV
 
 (...1884)
 
@@ -410,35 +410,35 @@ Game.FORCE_CANT_SKIP = false;
 bb({body:"normal", mouth:"scream", eyes:"scream_sad"});
 ```
 
-b: But I don't *want* to be a cowardly dog! I want to protect you! I want to be a good dog!
+b: *Korkak* bir köpek olmak istemiyorum! Seni korumak istiyorum! İyi bir köpek olmak istiyorum!
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Human... will you help tame this wolf?
+b: İnsan... bu kurdu evcilleştirmeye yardım edecek misin?
 
 `hong({eyes:"sad"})`
 
-h: I... I'll try.
+h: Ben... deneyeceğim.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
+h: Tamam. Duygularla sağlıklı ilişkiler kurmalıyız. İlişkilerin iletişime ihtiyacı var. Bu yüzden, iletişim kuralım.
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
+h: Önümüzdeki beş dakika kulağa çok sevimsiz gelecek ama başarana kadar deneyelim.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Dear inner wolf... how are *you* feeling?
+h: Sevgili içimdeki kurt... nasıl hissediyorsun?
 
-n2: TOTAL FEARS USED:
+n2: TOPLAM KULLANILAN KORKULAR:
 
-n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
+n2: *İNCİNMEK* {{_.attack_harm_total}}, *SEVİLMEMEK* {{_.attack_alone_total}}, *KÖTÜLENMEK* {{_.attack_bad_total}}
 
-n2: WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
+n2: İLK KONUŞMAK İSTEDİĞİN KORKU HANGİSİ? (DİĞERLERİNİ SONRA YAPABİLİRSİN)
 
 ```
 _.a4_fears_discussed = 0;
@@ -447,11 +447,11 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[I'm scared we'll be harmed.](#act4_harm)
+[Bizim incineceğimizden korkuyorum.](#act4_harm)
 
-[I'm scared we'll be alone.](#act4_alone)
+[Yalnız kalacağımızdan korkuyorum.](#act4_alone)
 
-[I'm scared we're bad people.](#act4_bad)
+[Kötü biri olduğumuzdan korkuyorum.](#act4_bad)
 
 # act4_harm
 
@@ -462,20 +462,20 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: I want to protect your need for physical safety,
+b: Fiziki güvenliğini korumak istiyorum,
 
 `bb({eyes:"sad_d"})`
 
-b: But the *whole world* seems so dangerous. So full of tragedy and evil.
+b: Ama *bütün dünya* tehlikeli görünüyor. Çok fazla felaket ve kötülükle dolu.
 
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Bilmem, bu kadar sırada ne söyleyeceğini seçmek *bana* yeter. *Sen*ne diyorsun, insan?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Tekrar, sana dönersek insan,. Ne düşünüyorsun?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
