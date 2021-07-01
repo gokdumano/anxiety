@@ -582,7 +582,7 @@ b: Sen bardağı %99 boş değil, %1 dolu olarak görüyorsunuz.
 
 `bb({ eyes:"normal" });`
 
-h: Eğer bir çölde mahsur kaldıysa o suyun hâlâ değeri vardır.
+h: Eğer bir çölde mahsur kaldıysan o suyun hâlâ değeri vardır.
 
 `bb({ eyes:"closed" });`
 
@@ -725,7 +725,7 @@ hong({ eyes:"annoyed" });
 bb({ body:"normal", eyes:"annoyed" });
 ```
 
-h: Haklısın. One *can* go too far.
+h: Haklısın. Bazen fazla ileri *gidilebilir*.
 
 `hong({ eyes:"normal" });`
 
@@ -790,7 +790,7 @@ h: Aw seni büyük, tüylü, panik kurt.
 
 # act4_thanks_2
 
-h: Aşırı tepki versen bile, {{_.thanks_for}}. hakkında ilgilendiğin için minnetarım.
+h: Aşırı tepki versen bile, {{_.thanks_for}} hakkında ilgilendiğin için minnetarım.
 
 `bb({ eyes:"annoyed" })`
 
@@ -821,7 +821,7 @@ b: Seni küçük tüysüz memeli.
 
 # act4_thanks_3
 
-h: Havlaman beni korkutsa bile, {{_.thanks_for}}. hakkında korumaya çalışıyorsun.
+h: Havlaman beni korkutsa bile, {{_.thanks_for}} hakkında korumaya çalışıyorsun.
 
 `bb({ eyes:"smile_r" });`
 
@@ -1146,7 +1146,7 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: Daha iyi bir insan olma yolundaki moral ihtiyaçlarını savunmak istiyorum.
+b: Daha iyi bir insan olma yolundaki moral refahını savunmak istiyorum.
 
 `bb({ eyes:"sad_d" })`
 
@@ -1291,7 +1291,7 @@ b: Oh, Evet! Vay! Ne büyük bir rahatlama!
 
 `bb({ body:"one_up", eyes:"sexy", mouth:"normal" })`
 
-b: Doktorun sadece "*bu seni nasıl hissettiriyor?*"dediğini duymak için saatte 100 dolar ödüyorum diye endişeliyim. 
+b: Doktorun sadece "*bu seni nasıl hissettiriyor?*" dediğini duymak için saatte 100 dolar ödüyorum diye endişeliyim. 
 
 `bb({ body:"paw", eyes:"closed", mouth:"narrow" })`
 
@@ -1333,7 +1333,7 @@ hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
 ```
 
-b: Peki *o* dördüncü duvar uzun sürmedi.
+b: Peki *o* dördüncü duvar pek uzun sürmedi.
 
 `hong({ body:"point" });`
 
