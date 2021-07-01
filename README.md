@@ -33,53 +33,53 @@ Ek kod [Spacie](https://spacie.me)
 
 **FreeSound.org'dan Ses Efektleri (Creative Commons)**
 
-* [Intro Scream](https://freesound.org/people/analogchill/sounds/35716/) by MaderaDelEste Films
-* [Dramatic Hit](https://freesound.org/people/qubodup/sounds/222517/) by qubodup
-* [Nature Ambience](https://freesound.org/people/michorvath/sounds/427601/) by michorvath
-* [Grass Footstep 1](https://freesound.org/people/morganpurkis/sounds/384651/) by morganpurkis
-* [Grass Footstep 2](https://freesound.org/people/morganpurkis/sounds/384643/) by morganpurkis
-* [Eating a Sandwich](https://freesound.org/people/dleverett/sounds/441906/) by dleverett
-* [Search a Bag](https://freesound.org/people/Tristan_Lohengrin/sounds/233441/) by Tristan\_Lohengrin
-* [Whoosh](https://freesound.org/people/crackles04/sounds/369698/) by crackles04
-* [Empty Room Ambience](https://freesound.org/people/kyles/sounds/451616/) by kyles
-* [Ball Bounce](https://freesound.org/people/13GPanska_Lakota_Jan/sounds/378355/) by 13GPanska\_Lakota\_Jan
-* [Faucet](https://freesound.org/people/calivintage/sounds/95709/) by calivintage
-* [Pop](https://freesound.org/people/onikage22/sounds/240566/) by onikage22
-* [Angry Scream](https://freesound.org/people/cdrk/sounds/21324/) by cdrk
-* [Dirty Explosion](https://freesound.org/people/Link-Boy/sounds/156615/) by Link-Boy
-* [Clothes Rustle](https://freesound.org/people/leonelmail/sounds/427866/) by leonelmail
-* [Typewriter](https://freesound.org/people/tams_kp/sounds/43559/) by tams\_kp
-* [Yelp](https://freesound.org/people/J%C3%BAliaLN/sounds/382990/) by JúliaLN
-* [Tension Building](https://freesound.org/people/benjaminharveydesign/sounds/316649/) by benjaminharveydesign
-* [Short Fart](https://freesound.org/people/DSISStudios/sounds/241000/) by DSISStudios
-* [Party Crowd](https://freesound.org/people/kyles/sounds/453925/) by kyles
-* [Party Music](https://freesound.org/people/djfroyd/sounds/324779/) by djfroyd
-* [Party Crowd 2](https://freesound.org/people/Adam_N/sounds/346687/) by Adam\_N
-* [Party Music 2](https://freesound.org/people/djfroyd/sounds/325155/) by djfroyd
-* [Vinyl Scratch](https://freesound.org/people/filmsndfx/sounds/369673/) by filmsndfx
-* [Jacob's Ladder](https://freesound.org/people/bethanyjodenton/sounds/466477/) by bethanyjodenton
-* [Yap Yap Yap](https://freesound.org/people/Robinhood76/sounds/327813/) by Robinhood76
-* [Door Close](https://freesound.org/people/InspectorJ/sounds/411791/) by InspectorJ
-* [Door Lock](https://freesound.org/people/Fabrizio84/sounds/458013/) by Fabrizio84
-* [Judge Gravel](https://freesound.org/people/qubodup/sounds/215164/) by qubodup
-* [Bottles Clinking](https://freesound.org/people/HDM2013/sounds/179438/) by HDM2013
-* [Drinking](https://freesound.org/people/georgisound/sounds/369293/) by georgisound
-* [Concrete Footsteps](https://freesound.org/people/harrietniamh/sounds/219673/) by harrietniamh
-* [Slide Whistle](https://freesound.org/people/sheepfilms/sounds/432546/) by sheepfilms
-* [Ambulance Siren](https://freesound.org/people/sofialomba/sounds/469413/) by sofialomba
-* [Distant Ambulance Sirens](https://freesound.org/people/ivolipa/sounds/337099/) by ivolipa
-* [ICU Room](https://freesound.org/people/chaffron/sounds/132074/) by chaffron
-* [EMT Radio](https://freesound.org/people/relwin/sounds/397087/) by relwin
-* [Inside A Driving Truck](https://freesound.org/people/RutgerMuller/sounds/50910/) by RutgerMuller
-* [Karate HI-YA](https://freesound.org/people/AmeAngelofSin/sounds/326888/) by AmeAngelofSin
-* [Canned Sitcom Laughter](https://freesound.org/people/Kinoton/sounds/371562/) by Kinoton
-* [Clap 1](https://freesound.org/people/InspectorJ/sounds/404542/) by InspectorJ
-* [Clap 2](https://freesound.org/people/InspectorJ/sounds/404539/) by InspectorJ
-* [Clap 3](https://freesound.org/people/InspectorJ/sounds/404541/) by InspectorJ
-* [Duck Quack](https://freesound.org/people/qubodup/sounds/442820/) by qubodup
-* [Glass Breaking](https://freesound.org/people/Samgd14/sounds/355340/) by Samgd14
-* [Bottle on Concrete](https://freesound.org/people/13GPanska_Gorbusinova_Anna/sounds/377986/) by 13GPanska\_Gorbusinova\_Anna
-* [Cartoon Running](https://freesound.org/people/Mountain852/sounds/365830/) by Mountain852
+* [Intro Scream](https://freesound.org/people/analogchill/sounds/35716/), MaderaDelEste Films
+* [Dramatic Hit](https://freesound.org/people/qubodup/sounds/222517/), qubodup
+* [Nature Ambience](https://freesound.org/people/michorvath/sounds/427601/), michorvath
+* [Grass Footstep 1](https://freesound.org/people/morganpurkis/sounds/384651/), morganpurkis
+* [Grass Footstep 2](https://freesound.org/people/morganpurkis/sounds/384643/), morganpurkis
+* [Eating a Sandwich](https://freesound.org/people/dleverett/sounds/441906/), dleverett
+* [Search a Bag](https://freesound.org/people/Tristan_Lohengrin/sounds/233441/), Tristan\_Lohengrin
+* [Whoosh](https://freesound.org/people/crackles04/sounds/369698/), crackles04
+* [Empty Room Ambience](https://freesound.org/people/kyles/sounds/451616/), kyles
+* [Ball Bounce](https://freesound.org/people/13GPanska_Lakota_Jan/sounds/378355/), 13GPanska\_Lakota\_Jan
+* [Faucet](https://freesound.org/people/calivintage/sounds/95709/), calivintage
+* [Pop](https://freesound.org/people/onikage22/sounds/240566/), onikage22
+* [Angry Scream](https://freesound.org/people/cdrk/sounds/21324/), cdrk
+* [Dirty Explosion](https://freesound.org/people/Link-Boy/sounds/156615/), Link-Boy
+* [Clothes Rustle](https://freesound.org/people/leonelmail/sounds/427866/), leonelmail
+* [Typewriter](https://freesound.org/people/tams_kp/sounds/43559/), tams\_kp
+* [Yelp](https://freesound.org/people/J%C3%BAliaLN/sounds/382990/), JúliaLN
+* [Tension Building](https://freesound.org/people/benjaminharveydesign/sounds/316649/), benjaminharveydesign
+* [Short Fart](https://freesound.org/people/DSISStudios/sounds/241000/), DSISStudios
+* [Party Crowd](https://freesound.org/people/kyles/sounds/453925/), kyles
+* [Party Music](https://freesound.org/people/djfroyd/sounds/324779/), djfroyd
+* [Party Crowd 2](https://freesound.org/people/Adam_N/sounds/346687/), Adam\_N
+* [Party Music 2](https://freesound.org/people/djfroyd/sounds/325155/), djfroyd
+* [Vinyl Scratch](https://freesound.org/people/filmsndfx/sounds/369673/), filmsndfx
+* [Jacob's Ladder](https://freesound.org/people/bethanyjodenton/sounds/466477/), bethanyjodenton
+* [Yap Yap Yap](https://freesound.org/people/Robinhood76/sounds/327813/), Robinhood76
+* [Door Close](https://freesound.org/people/InspectorJ/sounds/411791/), InspectorJ
+* [Door Lock](https://freesound.org/people/Fabrizio84/sounds/458013/), Fabrizio84
+* [Judge Gravel](https://freesound.org/people/qubodup/sounds/215164/), qubodup
+* [Bottles Clinking](https://freesound.org/people/HDM2013/sounds/179438/), HDM2013
+* [Drinking](https://freesound.org/people/georgisound/sounds/369293/), georgisound
+* [Concrete Footsteps](https://freesound.org/people/harrietniamh/sounds/219673/), harrietniamh
+* [Slide Whistle](https://freesound.org/people/sheepfilms/sounds/432546/), sheepfilms
+* [Ambulance Siren](https://freesound.org/people/sofialomba/sounds/469413/), sofialomba
+* [Distant Ambulance Sirens](https://freesound.org/people/ivolipa/sounds/337099/), ivolipa
+* [ICU Room](https://freesound.org/people/chaffron/sounds/132074/), chaffron
+* [EMT Radio](https://freesound.org/people/relwin/sounds/397087/), relwin
+* [Inside A Driving Truck](https://freesound.org/people/RutgerMuller/sounds/50910/), RutgerMuller
+* [Karate HI-YA](https://freesound.org/people/AmeAngelofSin/sounds/326888/), AmeAngelofSin
+* [Canned Sitcom Laughter](https://freesound.org/people/Kinoton/sounds/371562/), Kinoton
+* [Clap 1](https://freesound.org/people/InspectorJ/sounds/404542/), InspectorJ
+* [Clap 2](https://freesound.org/people/InspectorJ/sounds/404539/), InspectorJ
+* [Clap 3](https://freesound.org/people/InspectorJ/sounds/404541/), InspectorJ
+* [Duck Quack](https://freesound.org/people/qubodup/sounds/442820/), qubodup
+* [Glass Breaking](https://freesound.org/people/Samgd14/sounds/355340/), Samgd14
+* [Bottle on Concrete](https://freesound.org/people/13GPanska_Gorbusinova_Anna/sounds/377986/), 13GPanska\_Gorbusinova\_Anna
+* [Cartoon Running](https://freesound.org/people/Mountain852/sounds/365830/), Mountain852
 
 **Kenney.nl'den Ses Efektleri (All Creative Commons Zero)**
 
@@ -89,23 +89,23 @@ Ek kod [Spacie](https://spacie.me)
 
 **Adil Kullanım Olarak Sayılmasını Umduğum Telif Hakkıyla Korunan Sesler:**
 
-* The Pokémon theme song is © The Pokémon Company. I used a ~22s  instrumental clip for a parody song about Tinder.
-* The "Hadouken!" sound is © Capcom. I used it as parody for the anxiety wolf's Special Attack.
+* Pokémon tema müziği © The Pokémon Company. Tinder hakkındaki parodi şarkıda ~22 saniyelik bir kısmı kullandım.
+* "Hadouken!" müziği © Capcom. Anksiyetesi kurdunun özel saldırısı için parodi amaçlı kullandım.
 
 
 **Açık Kaynaklı Kütüphaneler**
 
-* [Howler.js](https://howlerjs.com/) by James Simpsson for sounds
-* [MinPubSub](https://github.com/daniellmb/MinPubSub) by Daniel Lamb for pub/sub
-* [RSVP.js](https://github.com/tildeio/rsvp.js/) by Tilde for promises
-* [Simple Sharing Buttons](https://simplesharingbuttons.com/) by Stefan Bohacek
-* [Ceaser](https://matthewlein.com/tools/ceaser) by Matthew Lein for CSS animation
+* [Howler.js](https://howlerjs.com/), James Simpsson sesler için
+* [MinPubSub](https://github.com/daniellmb/MinPubSub), Daniel Lamb yayım ve abonelik için
+* [RSVP.js](https://github.com/tildeio/rsvp.js/), Tilde
+* [Simple Sharing Buttons](https://simplesharingbuttons.com/), Stefan Bohacek
+* [Ceaser](https://matthewlein.com/tools/ceaser), Matthew Lein CSS animasyonları için
 
 **Oyunu test edenlere teşekkürler!**
 
 B Cavello, EmilyKate McDonough, Glen Chiacchieri, Mikayla Hutchinson, Monica Srivastava, Rowan, Srini Kadamati
 
-**Ve tabii ki [Patreon'daki fanlarıma](https://www.patreon.com/ncase)  destekleri için teşekkür ederim** Luv y'all <3
+**Ve tabii ki [Patreon'daki fanlarıma](https://www.patreon.com/ncase)  destekleri için teşekkür ederim** Hepinizi seviyorum <3
 
 ## Çeviri Nasıl Yapılır
 
@@ -140,7 +140,7 @@ Github üzerinde [fork](https://help.github.com/en/articles/fork-a-repo) oluştu
 
 `/scenes` altındaki tüm Markdown dosyalarını çevirin. (yaklaşık 9000 sözcük) Şahsen tercihim [MacDown](https://macdown.uranusjr.com/) (sadece Mac), ama etrafta [bir sürü açık-kaynaklı metin editörü mevcut](https://opensource.com/article/18/11/markdown-editors).
 
-**NEYİ ÇEVRİLİP NEYİN ÇEVRİLMEYECEĞİNE DAİR KURALLAR VAR.** En iyisi göstermek olacaktır. Kötü Fransızca'mı mazur görün...
+**NEYİN ÇEVRİLİP NEYİN ÇEVRİLMEYECEĞİNE DAİR KURALLAR VAR.** En iyisi göstermek olacaktır. Kötü Fransızca'mı mazur görün...
 
 İngilizce hali:
 
