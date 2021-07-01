@@ -581,7 +581,7 @@ h: Çünkü sen *bana* asla inanmadın.
 
 `bb({ eyes:"angry" });`
 
-b: Diğer muhafız kurtların onları sabırla eğitmek, birlikte çalışmayı *öğrenmek* için zaman harcayan insanları var,
+b: Diğer muhafız-kurtların onları sabırla eğitmek, birlikte çalışmayı *öğrenmek* için zaman harcayan insanları var,
 
 b: Muhafız kurtların insanları korumaya çalıştıkları için nefret etmesindense! Neden sen sade--
 
