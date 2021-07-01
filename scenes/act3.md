@@ -557,7 +557,7 @@ bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: BEKLE HAYIR BU TERS PSİKOLOJİYDİ SÖYLEDİKLERİMİN *TERSİNİ* YAPMAN GERE--
+b: BEKLE HAYIR BU TERS PSİKOLOJİYDİ, SÖYLEDİKLERİMİN *TERSİNİ* YAPMAN GERE--
 
 (#act3_bad_3)
 
