@@ -895,7 +895,7 @@ h: Veya arkadaşlarla zaman planlamak, düzenli olarak buluşmalara gitmek gibi 
 
 `hong({ body:"one_up" });`
 
-h: Ayrıca reddedilme konusunda daha rahat olmayı öğrenebilirim.
+h: Ayrıca reddedilme konusunda daha rahat olmayı öğrenebiliriz.
 
 `hong({ eyes:"normal" });`
 
