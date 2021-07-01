@@ -806,7 +806,7 @@ b: Tamam.
 
 h: Tamam.
 
-n: *TIE*
+n: *BAĞ*
 
 `_.a3_ending = "walkaway";`
 
