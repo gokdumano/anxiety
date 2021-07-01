@@ -1612,7 +1612,7 @@ a: Ben-yani-, bu sorun değilse, ben sadece...
 
 [Bekle, seni partide görmedim mi?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
-[Evet tabiki! Buraya gel.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
+[Evet tabi ki! Buraya gel.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
 [Üzgünüm, şu anda yalnız kalmaya ihtiyacım var.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
 
