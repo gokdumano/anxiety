@@ -1719,7 +1719,7 @@ h: Önümüzdeki hafta sonu partiye gideceğim.
 
 h: Bir dahaki kavgamızda, seni *yenmekle* kalmayacağım...
 
-h: Seni geberteceğim.
+h: Seni geberteceğim!
 
 ```
 Game.clearText();
