@@ -76,7 +76,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 [V. Jenerik]()
 {{/if}}
 
-[(ane menü)](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
+[(ana menü)](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # to-credits
 

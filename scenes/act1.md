@@ -32,7 +32,7 @@ n: GÖREVİN İNSANINI *TEHLİKEDEN* KORUMAK
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: HATTA, ŞU ANDA BU OYUNU TEKRAR OYNAMAK ONU *TEHLİKEYE* ATIYOR
+n: HATTA, ŞU ANDA BU OYUNU TEKRAR OYNAMAK ONU *TEHLİKEYE* ATIYOR,
 
 n: ÇABUK, UYAR ONU!
 
@@ -170,7 +170,7 @@ h: Neyse hadi karaktere geri dönelim.
 Game.clearText();
 ```
 
-n4: ( _ANKSİYETENİN_ FALAN FİLAN _KORKUNA_ EN BENZERİ FALAN FİLAN NASIL GİDİYOR BİLİYORSUN)
+n4: _ANKSİYETENİN_ FALAN FİLAN _KORKUNA_ EN BENZERİ FALAN FİLAN NASIL GİDİYOR BİLİYORSUN
 
 ```
 sfx("squeak");
@@ -208,7 +208,7 @@ b: İnsan! Dinle, tehlikedeyiz! Tehlike de...
 
 `bb({body:"squeeze"})`
 
-n4: ( _ANKSİYETENİN_ OYNAMASINA İZİN VER! _KORKUNA_ EN BENZERİNİ SEÇ)
+n4: _ANKSİYETENİN_ OYNAMASINA İZİN VER! _KORKUNA_ EN BENZERİNİ SEÇ
 
 (#act1_normal_choice)
 
@@ -359,7 +359,7 @@ b: İçgüdülerine güven! Hislerin her zaman haklıdır!
 
 n: İNSANININ ENERJİ BARINI SIFIRLA
 
-n: FİZİKSEL + SOSYAL + AHLAKİ İHTİYAÇLARINI KORUMAK İÇİN KULLANABİLECEKLERİN:
+n: FİZİKSEL + SOSYAL + AHLAKİ İHTİYAÇLARINI KORUMAK İÇİN YAPABİLECEKLERİN:
 
 n: *İNCİNME* KORKUSU #harm#
 
@@ -420,7 +420,7 @@ b: Bu tuhaf tip *her* hafta sonu parti vermiyor mu?
 
 `bb({eyes:"uncertain_right"});`
 
-b: İçindeki hangi boşluğu doldurmaya çalışıyor? İçleri iyice karışmış olmalı!
+b: İçindeki hangi boşluğu doldurmaya çalışıyor? Kafası bayağı karışık olmalı!
 
 `hong({eyes:"surprise"});`
 
@@ -439,7 +439,7 @@ b: İyi o zaman!
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Günde on beş sigara, insan! Fifteen!
+b: Günde onbeş sigara, insan! ONBEŞ!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -1367,7 +1367,7 @@ b: Her şey güzel olacak.
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: Sadık bekçi-kurdun olarak, tehlikelere karşı dikkatli olacağim ve seni güvende tutmak için elimden geleni yapacağım.
+b: Sadık bekçi-kurdun olarak, tehlikelere karşı dikkatli olacağım ve seni güvende tutmak için elimden geleni yapacağım.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
@@ -1635,7 +1635,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Armadillo gibi yap! Kendini korumak için top şeklinde kıvrılın!!
+b: Armadillo gibi yap! Kendini korumak için top şeklinde kıvrıl!!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;

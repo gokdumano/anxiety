@@ -18,11 +18,11 @@ publish("show_stats");
 
 n2: BU BÖLÜMDEKİ KORKULAR:
 
-i: #harm# *İNCİNMEK:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
+i: #harm# *İNCİNME:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
-i: #alone# *SEVİLMEMEK:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
+i: #alone# *SEVİLMEME:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 
-i: #bad# *KÖTÜLENMEK:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
+i: #bad# *KÖTÜLENME:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
 
 
 ```

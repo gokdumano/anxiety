@@ -592,7 +592,7 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: Karbon monoksit dedektöründen pilleri çıkardığın diye güvende olduğunu mu sanıyorsun?
+b: Karbon monoksit dedektöründen pilleri çıkardın diye güvende olduğunu mu sanıyorsun?
 
 `bb({eyes:"suspect_r"})`
 
@@ -625,7 +625,7 @@ b: Ah çok şükür insan, sanırım beni tekrar duyabiliyorsun!
 
 `bb({eyes:"closed", body:"point"})`
 
-b: I SHALL WARN YOU ABOUT...
+b: S...
 
 {{if _.a2_first_choice=="louder"}}
 [Deminki tehlikenin *çok daha fazlası*](#act2c_louder)
@@ -1255,7 +1255,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Hey. yalnız değilsin. Anksiyete çok yaygındır.
+r: Hey. Yalnız değilsin. Anksiyete çok yaygındır.
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1267,7 +1267,7 @@ r: Daha dün, kampüste birinin sinir krizi geçirdiğini ve telefonunu kırdı�
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Heck, daha dün, birinin armadillo gibi kıvrılıp herkesin içinde ağladığını duydum!
+r: Hatta daha dün, birinin armadillo gibi kıvrılıp herkesin içinde ağladığını duydum!
 {{/if}}
 
 ```
@@ -1638,11 +1638,11 @@ publish("act2",["party_hunter",19]);
 publish("act2",["party_hong",36]);
 ```
 
-h2: oldu güle güle, ciao, adios, au revoir
+h2: Oldu güle güle, ciao, adios, au revoir
 
 r: İçindeki hayvan bugün kazanmış olabilir, ama bir dahakine sana daha da güçlü bir şey hazırlayacağım!
 
-h2: sayōnara, auf wiedersehen, zài jiàn, shalom
+h2: Sayōnara, auf wiedersehen, zài jiàn, shalom
 
 r: Sen ve ben, o canavara patron kim göstereceğiz!
 
@@ -1719,7 +1719,7 @@ h: Önümüzdeki hafta sonu partiye gideceğim.
 
 h: Bir dahaki kavgamızda, seni *yenmekle* kalmayacağım...
 
-h: Seni geberteceğim.
+h: Seni geberteceğim!
 
 ```
 Game.clearText();

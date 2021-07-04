@@ -219,19 +219,19 @@ h: Yani bu hikayeden çıkarılacak sonuç neydi?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: Ne *öğrendik*? *Ben* aptaldım, "arkadaşlarım" *beni* kullanıyordu, ve neredeyse ölüyorduk.
+h: Ne *öğrendik*? Ben *aptaldım*, "arkadaşlarım" beni *kullanıyordu*, ve neredeyse *ölüyorduk*.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Evet, hastane faturalarından bahsetmiyorum bile.](#act4a_bill)
+[Hastane faturalarından bahsetmiyorum bile.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Evet, karaciğer hasarından bahsetmiyorum bile.](#act4a_liver)
+[Karaciğer hasarından bahsetmiyorum bile.](#act4a_liver)
 {{/if}}
 
-[Evet, bu en kötü senaryoydu.](#act4a_worst)
+[Evet, bu kötü durum senaryosuydu.](#act4a_worst)
 
 [Evet, ben haklıydım.](#act4a_right)
 
@@ -239,11 +239,11 @@ h: Ne *öğrendik*? *Ben* aptaldım, "arkadaşlarım" *beni* kullanıyordu, ve n
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Doğru. Sigorta planımın "aptal olmayı" kapsadığını sanmıyorum.
+h: Doğru. Sigortamın "aptal olmamı" karşılayacağını sanmıyorum.
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: Ama yine de... hayatta kaldık!
+b: Ama yine de... kurtulduk!
 
 `hong({eyes:"normal"});`
 
@@ -255,11 +255,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: Kesinlikle ömrümüzden birkaç yıl eksilttik...
+b: Kesinlikle hayatımızdan birkaç yıl eksilttik...
 
 `bb({eyes:"surprise"});`
 
-b: Ama en azından hala bir yaşam umudumuz var! Hayatta kaldık!
+b: Ama en azından hala bir hayatımızı *var*! Hayatta kaldık!
 
 ```
 hong({eyes:"surprise"});
@@ -274,7 +274,7 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: Ve an azından...
+b: Ama yine de...
 
 h: Hm?
 
@@ -296,11 +296,11 @@ h: Hm?
 
 `bb({eyes:"normal"});`
 
-b: Ben kurt diye ağlayan kurttum, ve sen – haklı olarak – bana inanmadın.
+b: Ben yalancı çobanlık yapan bir *kurttum*. Ve *gerçek* tehlike geldiğinde doğal olarak bana inanmadın.
 
 `bb({eyes:"surprise_r"});`
 
-b: Ve en azından, hayatta kaldık!
+b: Ama yine de, hayatta kaldık!
 
 (#act4b)
 
@@ -316,11 +316,11 @@ b: Her şeye rağmen, hala buradayız.
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: Az önce ölüme yakın bir deneyim yaşadığımızı düşünürsek oldukça sakin görünüyorsun.
+h: Ölümün eşiğinden döndüğümüzü düşünürsek oldukça sakin görünüyorsun.
 {{/if}}
 
 {{if !_.INJURED}}
-h: Az önce ölüme *yakın* bir deneyim yaşadığımızı düşünürsek oldukça sakin görünüyorsun.
+h: Ölümün eşiğinin *eşiğinden* döndüğümüzü düşünürsek oldukça sakin görünüyorsun.
 {{/if}}
 
 ```
@@ -328,13 +328,13 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Eh, diğer her şeyi kıyasladığında daha az korkunç yapıyor. Ayrıca bu beni de düşündürdü.
+b: Eh, diğer herşey nispeten daha az geliyor artık. Ayrıca beni düşünmeye de itti.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: Eğer seninle savaşırsam iyi olmaz, çünkü bu seni korumuyor...
+b: Seni korumamı engellediği için seninle dövüşmem kötü ise...
 
-h: Ama benim seninle savaşmam *da* kötü, çünkü bu seni daha da bağırtıyor...
+h: Ama seninle dövüşmem sadece seni daha da çok bağırttığı için kötüyse...
 
 `bb({eyes:"normal_r"})`
 
@@ -342,7 +342,7 @@ b: o zaman, belki...
 
 `bb({eyes:"normal"})`
 
-h: Belki savaşmamız gerekmez.
+h: Belki dövüşmek zorunda değilizdir.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -381,7 +381,7 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: Ben Büyük Kötü Kurt değilim. Ama ben bir muhafız-kurt da değilim.
+b: Ben büyük kötü bir kurt değilim. Ama ben bir muhafız-kurt da değilim.
 
 `bb({eyes:"sad_d"})`
 
@@ -389,7 +389,7 @@ b: Ben hırpalanmış bir barınak köpeğiyim.
 
 `bb({eyes:"sad"})`
 
-b: Zor şeyler atlattık. Belki travma ya da ihmal edilmek, bu yüzden bazen aşırı tepki verir ve giderim:
+b: Zor şeyler atlattık. Adına travma ya da yalnızlık de. Bu yüzden bazen aşırı tepki veriyorum ve:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -422,17 +422,17 @@ h: Ben... deneyeceğim.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Tamam. Duygularla sağlıklı ilişkiler kurmalıyız. İlişkilerin iletişime ihtiyacı var. Bu yüzden, iletişim kuralım.
+h: Tamam. Duygularla sağlıklı ilişkiler. İlişkilerin iletişime ihtiyacı var. Hadi, iletişim kuralım.
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: Önümüzdeki beş dakika kulağa çok sevimsiz gelecek ama başarana kadar deneyelim.
+h: Bu beş dakika kulağa oldukça zorlama gelecek ama yolun sonunu görene kadar gidelim.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Sevgili içimdeki kurt... nasıl hissediyorsun?
+h: Sevgili içimdeki kurt... nasıl *hissediyorsun*?
 
 n2: TOPLAM KULLANILAN KORKULAR:
 
@@ -462,7 +462,7 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: Fiziki güvenliğini korumak istiyorum,
+b: Fiziksel güvenliğini korumak istiyorum,
 
 `bb({eyes:"sad_d"})`
 
@@ -471,22 +471,22 @@ b: Ama *bütün dünya* tehlikeli görünüyor. Çok fazla felaket ve kötülük
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: Bilmem, bundan sonra ne söyleyeceğini seçmek *bana* yeter. *Sen* ne diyorsun, insan?
+b: *Ben* yeterince konuştum, *sen* ne düşünüyorsun, insan?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Tekrar, sana dönersek insan, Ne düşünüyorsun?
+b: Peki ya sen insan, sen ne düşünüyorsun?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: Başka düşüncelerin var mı, insan?
+b: Ekleyeceğin bi'şey var mı, insan?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
 [Haklısın. O zaman birbirimizi koruyalım.](#act4_harm_skills)
 
-[Kendimizi daha fazla tehlikeye maruz bırakalım.](#act4_harm_exposure)
+[Kendimizi tehlikeye daha da maruz bırakalım.](#act4_harm_exposure)
 
 [Teşekkür ederim.](#act4_thanks) `_.thanks_for = "fiziksel güvenliğim";`
 
@@ -494,14 +494,14 @@ b: Başka düşüncelerin var mı, insan?
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: Ama... nasıl? Benim dişlerim ve pençelerim var ama ben sadece metaforum.
+b: Ama... nasıl? Dişlerim ve pençelerim var, ama sadece bir metaforum.
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: Kendimizi korumayı mı öğreneceğiz? Birbirini koruyan bir topluluğa mı katılacağız? Genel sağlığımızı ve kişisel sınırlarımızı mı iyileştireceğiz?
+h: Kendimizi korumayı öğrenebiliriz, birbirini koruyan bir topluluğa mı katılabiliriz, sağlığımızı ve kişisel sınırlarımızı iyileştirebiliriz.
 
 ```
 bb({ eyes:"annoyed_r" });
@@ -512,7 +512,7 @@ b: Belki, ama...
 
 [Nereden başlayacağız?](#act4_harm_skills_start)
 
-[Eğer hâlâ işe yaramazlarsa?](#act4_harm_skills_work)
+[Ya yine de başaramazsak?](#act4_harm_skills_work)
 
 [Ya "güvenlik" konusunda aşırıya kaçarsak?](#act4_harm_skills_overboard)
 
@@ -524,18 +524,18 @@ b: Yapılacak çok şey var, kendimiz hakkında düzeltmemiz gereken çok şey v
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: Şimdi işe koyuluyoruz.
+h: Tam da şimdi başlıyoruz.
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
-b: Eh?
+b: Ne?
 
 ```
 bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Şu an iyi bir iletişim pratiği yapıyoruz. Bu daha az yanlış pozitif ile tehlikeyi daha iyi tespit etmemize yardımcı olur,
+h: Şu an doğru iletişim pratiği yapıyoruz. Daha kolay tehlikeleri farkedeceğiz, yanlış alarmlar azalacak, 
 
 `hong({ eyes:"surprise" });`
 
@@ -543,11 +543,11 @@ h: Ve *bu* bizi incinmekten koruyacak!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Bu nedenle: bu *bir* kendini savunma eğitimidir.
+h: Bu nedenle: bu *bir* savunma eğitimi.
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. Daha fazlasını bekliyordum:
+b: Huh. Ben daha çok şundan bekliyordum:
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -571,22 +571,22 @@ h: Doğru, kendimizi %100 korumanın bir yolu yok...
 
 `hong({ body:"one_up" });`
 
-h: Ama %1'lik bir iyileştirme bile bir anlamı var, değil mi?
+h: Ama %1'lik bir iyileşme bile bir ilerlemedir, değil mi?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: Sen bardağı %99 boş değil, %1 dolu olarak görüyorsunuz.
+b: Sen bardağı %99 boş değil, %1 dolu olarak görüyorsun.
 
 `bb({ eyes:"normal" });`
 
-h: Eğer bir çölde mahsur kaldıysan o suyun hâlâ değeri vardır.
+h: Çölde mahsur biri için o suyun hâlâ değeri vardır.
 
 `bb({ eyes:"closed" });`
 
-b: Pekala. O zaman dibine kadar içerim.
+b: Pekala. Dibini görelim o zaman.
 
 (#act4_something_else)
 
@@ -594,11 +594,11 @@ b: Pekala. O zaman dibine kadar içerim.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: Yani, bunca zaman benim uyarılarımı görmezden gelme sebebin *benim* güvenlik konusunda aşırıya kaçmamdı! 
+b: Yani, bunca zaman beni görmezden gelme sebebin *benim* güvenlik konusunda aşırıya kaçmamdı! 
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Haklısın. Güvenliği ölçülü şekilde yapmak isteriz. Her şeyi ölçülü şekilde yapmalıyız.
+h: Haklısın. Güvenliğin bile ölçülüsünü isteriz. Her şeyi ölçülü şekilde yapmalıyız.
 
 `bb({ eyes:"suspect" })`
 
@@ -613,7 +613,7 @@ bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: Sözlerinde tekrarlı bir şekilde tutarlı olduğun için teşekkür ederim.
+b: Sözlerini, birbirini destekler şekilde yaptığın için teşekkürler.
 
 (#act4_something_else)
 
@@ -644,15 +644,15 @@ hong({ body:"normal", eyes:"surprise" });
 bb({ mouth:"normal", eyes:"normal" });
 ```
 
-h: Buna mazur kalma teorisi denir!
+h: Buna mazur kalma terapisi denir!
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Köpek olduğundan beri, senin için de geçerli, değil mi? Tüm memeliler aynı ya savaş-ya kaç tepkisine sahiptir.
+h: Sen de bir köpeksin, sende de işe yaramalı, değil mi? Tüm memeliler aynı davranır, kaç veya savaş.
 
 `hong({ body:"normal" });`
 
-[Ya *fazla* duyarsızlaştırırsak?](#act4_harm_exposure_overboard)
+[Ya *fazla* duyarsızlaşırsak?](#act4_harm_exposure_overboard)
 
 [Ya *gerçek* bir tehlikeye maruz kalırsak?](#act4_harm_exposure_hurt)
 
@@ -668,7 +668,7 @@ b: ...
 
 `bb({ eyes:"sad", mouth:"smile" })`
 
-b: Aaaw.
+b: Aaay.
 
 (#act4_something_else)
 
@@ -676,23 +676,23 @@ b: Aaaw.
 
 `bb({ eyes:"annoyed" })`
 
-b: Korkunuzu *tamamen* kapatırsanız neler olduğunu gördük - kendinizi *gerçekten* tehlikeli durumlara sokarsınız.
+b: Korkunu *tamamen* kapatırsan neler olduğunu gördük - kendini *gerçekten* tehlikeli durumlara soktun.
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Ayrıca, *fazla* duyarsızlaştırma bizi psikopatlara dönüştürmez mi?
+b: Ayrıca, *fazla* duyarsızlaştırma bizi psikopata dönüştürmez mi?
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
-b: Yakında enfiye cinayeti pornosu izlerken kendimize ikramlarda bulacağız!
+b: Sonra da kendimizi enfiye cinayeti pornosu izleyerek ödüllendireceğiz!
 
 `hong({ eyes:"annoyed" })`
 
-h: Bence... bununla gök gürültüsü arasında ince bir çizgi var.
+h: Bence... bununla gök gürültüsü arasında bir çizgi var.
 
 `bb({ body:"normal", mouth:"normal", eyes:"suspect" })`
 
-b: Ama tam olarak *neresi*, insan? *Neresi?!*
+b: Ama tam olarak *nerede*, insan? *Nerede?!*
 
 `hong({ eyes:"surprise", body:"one_up" })`
 
@@ -704,7 +704,7 @@ h: Seninle çalışarak ve tartışarak o çizgiyi çizeceğiz.
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Tamam. Ama benim çizebileceğim başparmaklarım yok, bu yüzden çizimi sen yapmalısın.
+b: Ama benim başparmaklarım yok, bu yüzden çizimi sen yapmalısın.
 
 (#act4_something_else)
 
@@ -713,11 +713,11 @@ b: Tamam. Ama benim çizebileceğim başparmaklarım yok, bu yüzden çizimi sen
 `bb({ body:"two_up", eyes:"angry_r" })`
 
 {{if _.INJURED}}
-b: Örneğin: biz o lanet olasıca *çatıdan* atladık!
+b: Örneğin: o lanet olasıca *çatıdan* atladık!
 {{/if}}
 
 {{if !_.INJURED}}
-b: Örneğin: biz neredeyse o lanet olasıca *çatıdan* atlayacaktık!
+b: Örneğin: o lanet olasıca *çatıdan* neredeyse atlayacaktık!
 {{/if}}
 
 ```
@@ -729,13 +729,13 @@ h: Haklısın. Bazen fazla ileri *gidilebilir*.
 
 `hong({ eyes:"normal" });`
 
-h: Ama bu yüzden, eğer maruz bırakma terapisi yaparsak, küçük başlayacağız ve yukarı doğru küçük adımlar atacağız.
+h: İşte bu yüzden, maruz bırakma terapisi ile küçük başlayıp yukarı doğru küçük adımlar atacağız.
 
-h: *Gerçek* tehlikeye çarpmadan hemen önce dururuz.
+h: *Gerçek* tehlikeye çarpmadan hemen önce duracağız.
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
-b: Evet, yüksek sesli gök gürültüsü duymakla, uzun sivri bir şapkayla fırtınada durmak arasındaki çizgiyi belirliyorum.
+b: Evet, gök gürültüsü duymakla, uzun sivri bir şapkayla fırtınada durmak arasında bir çizgi çiziyorum.
 
 (#act4_something_else)
 
@@ -763,7 +763,7 @@ b: ...
 
 `bb({ eyes:"annoyed" })`
 
-b: Bekle, hissettiklerimin lehinde veya aleyhinde görüşün yok mu? Sadece... "teşekkür ederim" mi?
+b: Bekle, destekleme veya karşı çıkma yok mu? Sadece... "teşekkür ederim" mi?
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
@@ -794,7 +794,7 @@ h: Aşırı tepki versen bile, {{_.thanks_for}} hakkında ilgilendiğin için mi
 
 `bb({ eyes:"annoyed" })`
 
-b: Bekle... Bu korkular hakkında konuşmaktan kaçınmak için sadece "teşekkür ederim" demiyorsunuz, değil mi?
+b: Bekle... Korkular hakkında konuşmaktan kaçmak için "teşekkür ederim" demiyorsun, değil mi?
 
 ```
 bb({ eyes:"normal" });
@@ -805,7 +805,7 @@ h: Şey, işler karmaşık ve her zaman hazır cevaplarım olmuyor.
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
-h: Normalde hayat size önceden hazırlanmış 3 diyalog yanıtı listesi vermez.
+h: Hayat sana 3 seçenekten ibaret diyaloglar vermiyor sonuçta.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
@@ -852,31 +852,31 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"sad_d" });`
 
-b: O derin, insani ait olma ihtiyacını karşıladığından emin olmak istiyorum....
+b: Aidiyetlik hissinin karşıladığından emin olmak istiyorum..
 
 `bb({ eyes:"sad_u" });`
 
-b: Ama eğer birileri bizi - *gerçek* bizi- tanısaydı, hepsini korkutup kaçırırdık diye endişeleniyorum.
+b: Ama korkum o ki, eğer birisi bizi - *gerçek* bizi - tanırsa korkup kaçar.
 
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: Bilmiyorum, artık ne söyleyeceğimi seçmek *bana* yeter. *Sen* ne diyorsun, insan?
+b: *Ben* yeterince konuştum, *sen* ne düşünüyorsun, insan?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Tekrar, sana dönersek insan. Ne düşünüyorsun?
+b: Peki ya sen insan, sen ne düşünüyorsun?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: Başka düşüncelerin var mı, insan?
+b: Ekleyeceğin bi'şey var mı, insan?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Katılıyorum: hadi sosyal hayatımız üzerinde çalışalım.](#act4_alone_skills)
+[Katılıyorum: sosyal hayatımız üzerinde çalışalım.](#act4_alone_skills)
 
-[Bence insanlar bizi seviyor.Hadi bunu ortaya çıkaralım. ](#act4_alone_experiment)
+[Bence insanlar bizi seviyor. Hadi deneyelim?](#act4_alone_experiment)
 
 [Teşekkür ederim.](#act4_thanks) `_.thanks_for = "sosyal aidiyetim";`
 
@@ -891,26 +891,26 @@ h: Soru sorma, dinleme ve empati kurma, açık ve savunmasız olma gibi becerile
 
 `hong({ eyes:"normal_l" });`
 
-h: Veya arkadaşlarla zaman planlamak, düzenli olarak buluşmalara gitmek gibi daha iyi sosyal alışkanlıklar?
+h: Veya arkadaşlarla plan yapmak, düzenli buluşmalara gitmek gibi daha iyi sosyal alışkanlıklar?
 
 `hong({ body:"one_up" });`
 
-h: Ayrıca reddedilme konusunda daha rahat olmayı öğrenebiliriz.
+h: Ayrıca reddedilmekten daha az etkilenmeyi,
 
 `hong({ eyes:"normal" });`
 
-h: Ya da insanların bizi reddetmediğini, sadece yorgun olduklarını veya Dinlenen ^Kaltak^ Yüzüne sahip olduklarını öğrenebiliriz.
+h: Ya da insanların bizi reddetmediğini, sadece yorgun olduğunu anlamayı öğreniriz
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: Çok fazla seçenek var. Ama, "sosyal becerileri öğrenmek" hakkında...
+b: Çok fazla seçenek var. Ama, "sosyal beceriler öğrenmek" hakkında...
 
-[Bu *çıkar amaçlı* değil mi?](#act4_alone_skills_manipulative)
+[Bu *manipülatif* değil mi?](#act4_alone_skills_manipulative)
 
-[Bu bizi *manipüle etmeyi* kolaylaştırmaz mı?](#act4_alone_skills_manipulated)
+[Bu bizi *manipülatif* birisi yapmaz mı?](#act4_alone_skills_manipulated)
 
 [Ya hâlâ başarısız olursak?](#act4_alone_skills_fail)
 
@@ -918,29 +918,29 @@ b: Çok fazla seçenek var. Ama, "sosyal becerileri öğrenmek" hakkında...
 
 `bb({ eyes:"suspect" });`
 
-b: Kurbanlarının duygularını okuyabilen seri katiller "empati" konusunda harika değiller mi?
+b: Kurbanlarının duygularını okuyabilen seri katiller "empati" uzmanı değiller mi?
 
 `bb({ eyes:"annoyed" });`
 
-b: Charles Manson arkadaşlar kazanmadı mı ve insanları etkilemedi mi?
+b: Charles Manson arkadaşlar edinip ve insanları etkilemedi mi?
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
 h: Evet, haklısın.
 
-h: "Sosyal beceriler", insanları gerçekten *önemsemiyorsak* hiçbir şey ifade etmez.
+h: İnsanları *önemsemiyorsak* "sosyal becerilerin" anlamı olmaz.
 
 `hong({ body:"normal" });`
 
-h: Kısaca, sadece ^oruspu çocuğu^ olma.
+h: Kısacası ^oruspu çocuğu^ olma.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: İşte tam orada motive edici bir poster yazısı.
+b: İşte tam motive edici bir poster başlığı
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
-h: “^Oruspu Çocuğu^™ Olma.”
+h: "^Oruspu Çocuğu^™ Olma."
 
 (#act4_something_else)
 
@@ -948,28 +948,29 @@ h: “^Oruspu Çocuğu^™ Olma.”
 
 `bb({ eyes:"angry" })`
 
-b: İnsanlar ayaklarını üzerimize silerken Lütfen ve Teşekkürler diyerek Hoş Geldiniz paspası olacağız!
+b: İnsanların ayaklarını sildiği, "Lütfen" ve "Teşekkürler" diyen bir kapı paspası olacağız!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
-b: Çok fazla ^kıç^ öpeceğiz ki, kahverengi ruj sürüyormuşuz gibi görünecek!
+b: O kadar ^kıç^ öpeceğiz ki, kahverengi ruj sürmüşüz gibi görünecek!
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Haklısın."Sosyal beceriler" yalnızca başkalarını memnun etmekle ilgili olamaz, aynı zamanda *sınırlar* belirlemekle de ilgili olmalıdır.
+h: Evet. "Sosyal beceriler" sadece başkalarını memnun etmek değildir, *sınırlar* belirlemekle de ilgilidir.
 
 `hong( body:"one_up" });`
 
-h: Evimizi ayakta tutacak duvarlarımız yoksa başkalarını evimize davet edemeyiz.
+h: Evimizin kirişleri olmadan başkalarını evimize davet edemeyiz.
+
 ```
 hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Ayrıca... re: o ruju aklımda canlandırdım da... *ıyy??*
+h: Ayrıca... o ruju aklımda canlandırdım da... *tatsız??*
 
 (#act4_something_else)
 
@@ -984,7 +985,7 @@ bb({ eyes:"normal" });
 hong({ eyes:"surprise", body:"shrug" });
 ```
 
-h: Ve bu iyi! Başarısızlık, herkesin ilk olarak öğrenmesi gereken bir şeydir!
+h: Sıkıntı değil! Yeni bi'şey öğrenmenin ilk adımı başarısızlıktır!
 
 `hong({ body:"normal", eyes:"normal" });`
 
@@ -992,7 +993,7 @@ h: O zaman birlikte başarısız olalım, tamam mı?
 
 `bb({ eyes:"normal_r" });`
 
-b: Tabii, sanırım... en kötü senaryo, şehirden gidip yeni bir kimlik alabiliriz.
+b: Tabii, sanırım... en kötü şehirden kaçıp yeni bir kimlik alabiliriz.
 
 `bb({ eyes:"normal" });`
 
@@ -1007,29 +1008,29 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Tecrübe kazanabiliriz!
+h: Denemeler yapabiliriz!
 
 `hong({ body:"chin" });`
 
-h: Bir arkadaşa takılmak için ping atabiliriz, eski bir dostla yeniden bağlantı kurabiliriz, hâttâ baristayla sohbet bile edebiliriz.
+h: Takılmak için gözümüze bir arkadaş takarız, eskilerden birileri ile konuşabiliriz, ya da baristayla.
 
 `hong({ body:"normal" });`
 
-h: Sanırım sandığımızdan daha sevimli olduğumuzu görebiliriz.
+h: Sanırım sandığımızdan daha sevimli olduğumuzu farkedebiliriz.
 
 `bb({ eyes:"annoyed" });`
 
-[Ya bunlar küçük, ucuz "kazançlar" ise?](#act4_alone_experiment_cheap)
+[Ya bunlar küçük, ucuz "zaferlerse"?](#act4_alone_experiment_cheap)
 
-[Ya bu başkalarına yükse?](#act4_alone_experiment_burden)
+[Ya bu başkalarına yük olursa?](#act4_alone_experiment_burden)
 
-[Ama bu *gerçek* biz değiliz!](#act4_alone_experiment_real_us)
+[Ama ufak muhabbetler *gerçek* biz değiliz!](#act4_alone_experiment_real_us)
 
 # act4_alone_experiment_real_us
 
 `bb({ eyes:"sad" });`
 
-b: Eğer yüzeysel bir gülümseme takınırsak, asla kimseyle gerçekten bağlantı kuramayız,
+b: Boş bir gülümseme takınırsak, asla kimseyle gerçekten bağlantı kuramayız,
 
 `bb({ eyes:"super_sad" });`
 
@@ -1050,22 +1051,22 @@ b: Ne.
 
 `hong({body:"hands_1"})`
 
-h: Köpekler sevgi ve güven göstermek istediklerinde, göbeklerini açığa çıkararak kendilerini savunmasız hale getirirler.
+h: Köpekler sevgi ve güven göstergesi olarak karınlarını karınlarını savunmasız bırakırlar.
 
 `hong({body:"one_up"})`
 
-h: Belki *henüz* savunmasız olacak kadar güvende değiliz ama yeterli eğitimle,
+h: Belki *henüz* göbeğimizi açacak kadar güvende hissetmiyoruz ama yeterli eğitimle,
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: Bir gün insanlara gerçek bizi gösterebiliriz - tamamen berbat, tamamen insan.
+h: Bir gün insanlara gerçek bizi gösterebiliriz - berbat, insan.
 
 ```
 hong({eyes:"normal"});
 bb({ eyes:"super_sad", mouth:"smile", body:"chest" });
 ```
 
-b: Bana bir ziyafet verirsen yuvarlanırım.
+b: Bana bir ödül verirsen yuvarlanırım.
 
 `bb({ eyes:"normal", mouth:"normal" });`
 
@@ -1076,22 +1077,22 @@ h: Hayır.
 
 # act4_alone_experiment_cheap
 
-b: Baristaya "merhaba" demek, Sosyal Kelebek Olimpiyatları'nda tam olarak altın madalya performansı değil.
+b: Baristaya "merhaba" demekaltın madalyalık bir olimpiyat performansı değil.
 
 ```
 hong({ body:"point", eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: Sadece *bizim* için!
+h: *Bizim* için öyle!
 
 `hong({ body:"one_up", eyes:"annoyed" });`
 
-h:Sosyal arenada tüy siklet bile değiliz, daha çok... kuark ağırlığı gibiyiz.
+h:Sosyal arenada tüy siklet bile değiliz, daha çok... kuark siklet.
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Küçük, ucuz kazançlarla başlamamız gerekiyorsa, öyle olsun. 1000. adımdan önce 1. basamağı tırmanmanız gerekiyor.
+h: Küçük zaferlerle başlamamız gerekiyorsa, öyle olsun. 1000. adımdan önce elbet 1. adımı atmamız gerek.
 
 b: Evet! Belki "Merhaba" dedikten sonra, şöyle devam edebiliriz...
 
@@ -1101,7 +1102,7 @@ b: *"Nasılsınız?"*
 
 `hong({ body:"shrug", mouth:"smile", eyes:"surprise_l" });`
 
-h: *"Daha fazla olmaz!"*
+h: *"Fena değil!"*
 
 (#act4_something_else)
 
@@ -1109,11 +1110,11 @@ h: *"Daha fazla olmaz!"*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Belki barista sadece biraz kahve yapmak istiyor, sosyal becerilerimizin kötü olup olmadığını görmek için *deney* olmak istemiyor.
+b: Belki barista sosyal beceri *deneğimiz* olmak istemiyordur, sadece kahve yapmak istiyordur.
 
 `bb({ eyes:"annoyed" })`
 
-h: Eh, eğer *bir yük olduğumuz* ortaya çıkarsa...
+h: Eh, eğer bir *yük* olduğumuzu farkedersek...
 
 ```
 hong({ eyes:"surprise" });
@@ -1124,14 +1125,14 @@ h: Bunu bilmek de güzel!
 
 `hong({ eyes:"normal" });`
 
-h: Daha sonra, insanlara neyin rahat olduğunu önetkin olarak nasıl soracağımızı, başkalarının sınırlarını bilmeyi ve saygı duymayı öğrenebiliriz.
+h: İnsanların nasıl rahat olduğunu öğrenmeyi ve başkalarının sınırlarına saygı duymayı öğrenebiliriz.
 
 ```
 hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Bilirsiniz, danışman broşürlerinde gördüğümüz tüm o "kişiler arası beceriler" saçmalık.
+h: Bilirsin, danışman broşürlerinde gördüğün o "kişiler arası beceriler" saçmalığı.
 
 (#act4_something_else)
 
@@ -1146,26 +1147,26 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: Daha iyi bir insan olma yolundaki moral refahını savunmak istiyorum.
+b: Daha iyi bir insan olmanı sağlayacak ahlaki ihtiyaçlarını korumak istiyorum,
 
 `bb({ eyes:"sad_d" })`
 
-b: Ama derinlerde bir yerdeymiş gibi geliyor, temelde çok... kırılmışız.
+b: Ama derinlerde bir yerde, temelde çok... bozuğuz.
 
 `bb({ body:"two_up", eyes:"angry" })`
 
 {{if _.INJURED}}
-b: Ve bana berbat olmadığımızı söyleme. Bir *çatıdan* atladık.
+b: Ve bana bozuk *olmadığımızı* söyleme. Bir *çatıdan* atladık.
 {{/if}}
 
 {{if !_.INJURED}}
-b: Ve sakın bana berbat olmadığımızı söyleme. Neredeyse bir *çatıdan* atlıyorduk.
+b: Ve bana bozuk *olmadığımızı* söyleme. Neredeyse bir *çatıdan* atlıyorduk.
 {{/if}}
 
 `bb({ body:"normal", eyes:"sad" })`
 
 {{if _.a4_fears_discussed==1}}
-b: Bilmiyorum, artık ne diyeceğimi seçmek *bana* yeter. *Sen* ne diyorsun, insan?
+b: *Ben* yeterince konuştum, *sen* ne düşünüyorsun, insan?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
@@ -1173,16 +1174,16 @@ b: Yine sana dönelim, insan. Sen ne düşünüyorsun?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: Başka düşüncelerin var mı, insan?
+b: Ekleyeceğin bi'şey var mı, insan?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Yani biz bozulduk. Hadi bizi düzeltelim.](#act4_bad_fix)
+[Madem bozuğuz, hadi kendimizi düzeltelim.](#act4_bad_fix)
 
-[Yani biz bozulduk. Bunu kabul etmeliyiz.](#act4_bad_accept)
+[Madem bozuğuz, hadi bunu kabul edelim.](#act4_bad_accept)
 
-[Teşekkür ederim.](#act4_thanks) `_.thanks_for = "Moral refahım";`
+[Teşekkür ederim.](#act4_thanks) `_.thanks_for = "Ahlaki sağlığım";`
 
 # act4_bad_fix
 
@@ -1191,11 +1192,11 @@ bb({eyes:"normal"});
 hong({body:"chin"});
 ```
 
-h: Yavaş yavaş daha iyi alışkanlıklar edinebilir, hayatımızı değer verdiğimiz şeylerle daha uyumlu hale getirebiliriz.
+h: Yavaş yavaş daha iyi alışkanlıklar edinebilir, hayatımızı hizaya sokabiliriz.
 
 `hong({body:"one_up"});`
 
-h: Ve gerekirse, bir terapist veya danışman gibi profesyonel yardım alabiliriz.
+h: Ve gerekirse, bir terapist veya danışman gibi bir uzmandan yardım alabiliriz.
 
 `hong({body:"normal"});`
 
@@ -1258,32 +1259,35 @@ h: Lütfen, bunu yapma.
 
 `bb({ eyes:"angry_d" })`
 
-b: Bunu kabul etmek mide bulandırıcı ama... bir parçam bu rahatsızlığa sahip olmayı *istiyor*.
+b: Bunu kabul etmek iğrenç ama... bir parçam bu rahatsızlığa sahip olmak *istiyor*.
 
 `bb({ eyes:"angry" })`
 
-b: Yani, onsuz, *sıkıcı* olmayacak mı?
+b: Yani, onsuz, *sıkıcı* olmayacak mıyız?
 
 `bb({ eyes:"sad_r", body:"one_up" })`
 
-b: Bozukluk olmadan sanatımız bayat ve yavan olmaz mı?
+b: Bu bozukluk olmadan mizacımız bayat ve yavan olmaz mı?
+
 `bb({ eyes:"sad_u", body:"two_up" })`
 
-b: Bozukluk olmadan, bozukluğu olan arkadaşlarımızla bağlantı kuramaz mıyız?
+b: Bozukluk olmadan, bozukluğu olan arkadaşlarımızla bağlantı kuramaz hale gelmeyecek miyiz?
+
 `bb({ eyes:"sad", body:"chest" })`
 
-b: Hayattan memnun kalırsak, kendimizi harika şeyler yapmaya zorlamayı bırakır mıyız?
+b: Hayatımızdan memnun olursak, kendimizi daha iyi şeyler yapmaktan alıkoymaz mıyız?
+
 `hong({ MOUTH_LOCK:true })`
 
 h: ...
 
-h: Eğer korkarsak... "korkuların bitmesi"...
+h: "Korkacak bi'şey kalmamasından" bile korkuyorsak...
 
-h: Korkularımızın biteceğini sanmıyorum.
+h: Korkacak şeylerimiz kolay kolay bitmeyecektir
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
-b: Oh, Evet! Vay! Ne büyük bir rahatlama!
+b: Ah, Evet! Vay! Ne büyük bir rahatlama!
 
 (#act4_something_else)
 
@@ -1291,11 +1295,11 @@ b: Oh, Evet! Vay! Ne büyük bir rahatlama!
 
 `bb({ body:"one_up", eyes:"sexy", mouth:"normal" })`
 
-b: Doktorun sadece "*bu seni nasıl hissettiriyor?*" dediğini duymak için saatte 100 dolar ödüyorum diye endişeliyim. 
+b: "Doktor, sadece *bu seni nasıl hissettirdi* sorusuna 870₺/saat ödemek beni kaygılandırıyor."
 
 `bb({ body:"paw", eyes:"closed", mouth:"narrow" })`
 
-b: "Mm-hmm. Bu seni nasıl hissetiriyor?"
+b: "Hm-mmm. Peki bu seni nasıl hissettiriyor?"
 
 ```
 bb({ body:"normal", eyes:"normal", mouth:"normal" });
@@ -1306,7 +1310,7 @@ h: Evet, bu tamamen makul bir endişe.
 
 `hong({ eyes:"annoyed", mouth:"sad" });`
 
-h: Ve akıl sağlığının pek çok insan için uygun olmaması gerçekten berbat.
+h: Ve akıl sağlığının çoğu kişi için karşılanabilir olmaması gerçekten berbat.
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
@@ -1314,15 +1318,15 @@ h: Yine de bazı ucuz veya ücretsiz seçenekler var:
 
 `hong({ body:"chin" })`
 
-h: Destek grupları, çevrimiçi terapi, öğrenci/kar amacı gütmeyen sağlık merkezleri...
+h: Destek grupları, çevrimiçi terapi, kar amacı gütmeyen sağlık merkezleri...
 
 `hong({ body:"hands_1" })`
 
-h: Meditasyon yapmak, iyi uyumak, arkadaşlarla düzenli olarak sohbet etmek, yeni şeyler öğrenmek gibi alışkanlıklar geliştirmek...
+h: Meditasyon, iyi uyku, arkadaşlarla düzenli sohbet gibi alışkanlıklar edinmek...
 
 `hong({ body:"hands_2" })`
 
-h: Kanıta dayalı psikoterapiler için çalışma kitapları ödünç almak için bir kütüphaneye gitmek...
+h: Kütüphaneden, kanıta dayalı psikoterapiler için çalışma kitapları ödünç almak...
 
 `hong({ body:"one_up" })`
 
@@ -1333,11 +1337,11 @@ hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
 ```
 
-b: Peki *o* dördüncü duvar pek uzun sürmedi.
+b: *Dördüncü* duvar pek dayanmadı demek.
 
 `hong({ body:"point" });`
 
-h: Bazı şeyler anlatı geleneğinden daha önemlidir. Ruh sağlığı gibi.
+h: Bazı şeyler edebi anlatıdan daha önemlidir. Akıl sağlığı gibi.
 
 (#act4_something_else)
 
@@ -1349,7 +1353,7 @@ bb({ eyes:"normal" });
 hong({ eyes:"normal_l", body:"one_up", mouth:"narrow" });
 ```
 
-h: Yani, terapistlerin söylediği bu değil mi? Tüm duygularınızı, olumsuz olanları bile kabul ediyor musunuz?
+h: Terapistler de böyle demiyor mu? Tüm duygularını, olumsuz olanları bile kabul et?
 
 ```
 bb({ eyes:"annoyed" });
@@ -1358,39 +1362,39 @@ hong({ eyes:"normal", body:"normal", mouth:"normal" });
 
 b: Bekle.
 
-["Kabul etmek" yani *vazgeçmek mi*?](#act4_bad_accept_give_up)
+["Kabul etmek" yani *pes etmek* mi?](#act4_bad_accept_give_up)
 
-["Kabul etmek" yani *razı olmak* mı?](#act4_bad_accept_approve)
+["Kabul etmek" yani *onaylamak* mı?](#act4_bad_accept_approve)
 
-["Kabul etmek" yani *ciddiye almak* mı?](#act4_bad_accept_literally)
+["Kabul etmek" yani *harfiyen* mi?](#act4_bad_accept_literally)
 
 # act4_bad_accept_give_up
 
 `bb({ eyes:"angry", body:"one_up" });`
 
-b: Sence Martin Luther King, "Otobüsün önünde oturamayız, hadi *kabul edelim*" diyebilir miydi?
+b: Sence Martin Luther King, "Otobüsün önünde oturamamız kötü, hadi *kabul edelim*" der miydi?
 
 `bb({ eyes:"angry_r", body:"two_up" });`
 
-b: Kendi Kendine Yardım Sanayi Kompleksi neden beyaz bayrak sallamanın *derin bir bilgelik* olduğunu düşünüyor?
+b: Kişisel gelişim duayenleri beyaz bayrak sallamayı neden *derin bir bilgelik* olarak görüyor?
 
 `bb({ eyes:"annoyed", body:"normal" });`
 
-h: Bence terapistler kötü şeyleri "kabul etmek" anlamına gelir: onların var olduğunu ve değiştirilmesinin zor olduğunu kabul etmek,
+h: Bence "kabul et" ile kastettikleri şey: varlıklarını ve değiştirmesi zor olduklarını kabul et,
 
-h: Ama illâki değişim sözünden vazgeçmek değil.
+h: Ama değişime dair eylemlerde daha başlarken pes etme
 
 `bb({ eyes:"suspect" });`
 
-b: O zaman terapistler *onaylamalı*, *kabul etmemeli*.
+b: O zaman terapistler *tanı* demeli *kabul et* değil.
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Evet, düşününce "kabul etmek" biraz kafa karıştırıcı.
+h: Evet, düşününce "kabul et" biraz kafa karıştırıcı.
 
 `bb({ eyes:"closed", mouth:"narrow" });`
 
-b: Peki, *onaylıyorum.*
+b: Peki, bunu *tanıyorum.*
 
 (#act4_something_else)
 
@@ -1398,38 +1402,40 @@ b: Peki, *onaylıyorum.*
 
 `bb({ eyes:"angry" });`
 
-b: Sanki bozuk olmamız *iyi* bir şey mi? Hayır!
+b: Bozuk olmamız *iyi* bi'şeymiş gibi mi? Hayır!
 
 `bb({ eyes:"angry_r", body:"one_up" });`
 
-b: Akıl hastalığını romantikleştiren tüm o salak Hollywood senaristleri pisliklerle dolu!
+b: Akıl hastalıklarını romantikleştiren tüm Hollywood senaristleri beş para etmez!
+
 `bb({ eyes:"angry", body:"two_up" });`
 
 b: Akıl hastası olmak *berbat!* İnsanların *hayatlarını* çalıyor! Bunu neden "kabul edelim"?!
 
 `bb({ body:"normal" });`
 
-h: Bence terapistler duygularımızı "kabul etmek" anlamına gelir: onlara karşı sabırlı ol.
+h: Bence "kabul et" ile kastettikleri şey: onlara karşı sabırlı ol.
 
 ```
 hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Tıpkı bataklıkta mücadele etmenin sizi nasıl daha hızlı batırdığı ve çözümün sabırla dümdüz uzanmak olduğu gibi,
+h: Tıpkı bataklıkta debelenmenin daha hızlı batırdığı ve çözümün sabırla dümdüz uzanmak olduğu gibi,
 
 `hong({ eyes:"surprise" });`
 
 {{if _.INJURED}}
-h: Sana karşı savaşmak, korkum, çatıdan atlamama neden oldu.
+h: Seninle savaşmak, korkum, çatıdan atlamama neden oldu.
 {{/if}}
 
 {{if !_.INJURED}}
-h: Sana karşı savaşmak, korkum, neredeyse çatıdan atlamama sebep olacaktı.
+h: Seninle savaşmak, korkum, neredeyse çatıdan atlamama sebep olacaktı.
+{{/if}}
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Bunun yerine çözüm, şu anda yaptığımız şeyi yapmaktır – savaşmak değil, sabırla birlikte olmaktır.
+h: Bunun yerine, çözüm şu anda yaptığımız şeyi yapmaktır – savaşmak değil, sabırla birlikte olmaktır.
 
 `bb({ eyes:"annoyed" });`
 
@@ -1449,30 +1455,30 @@ b: "kabul etmeyi" kabul etmiyorum.
 
 `bb({ eyes:"sad", body:"one_up" });`
 
-b: Ama zaten beni ciddiye almadığını *biliyoruz*.
+b: Ama zaten beni harfiyen dinlememen gerektiği *biliyoruz*.
 
 `bb({ eyes:"sad_u", body:"two_up" });`
 
-b: Bütün *sorun* sana yardım etmek istemem ama bunu yapmak için kelimeleri kullanmakta berbatım!
+b: Bütün *sorun* sana yardım etmek istemem ama bunu yapmak için doğru sözcükleri bulamamam!
 
 `bb({ eyes:"sad", body:"normal" });`
 
-h: Bence terapistler duygularınızı "kabul etmek" anlamına gelir: "savaşmayın ya da onları görmezden gelmeyin."
+h: Bence "kabul et" ile kastettikleri şey: "ne savaşın ne de gözardı edin."
 
 `hong({ eyes:"surprise", body:"one_up" });`
 
-h: Sizi dinlemek için *sizinle* çalışın ama söylediklerinizi %100 gerçek olarak algılamayın.
+h: Duygularını dinle, onlarla birlik ol ama dediklerini %100 harfiyen anlama.
 
 ```
 hong({ eyes:"normal", body:"normal" });
 bb({ eyes:"annoyed", mouth:"normal" });`
 ```
 
-b: O zaman terapistler "kabul et" gibi belirsiz, kafa karıştırıcı bir kelime yerine *bunu* söylemelidir.
+b: O zaman terapistler "kabul et" gibi belirsiz bir sözcük yerine *bunu* söylemeliler.
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Sanırım onlar da kelimeleri kullanmakta berbatlar.
+h: Sanırım onlar da doğru sözcükleri bulamıyorlar.
 
 (#act4_something_else)
 
@@ -1499,7 +1505,7 @@ h: Peki, dertli kalbinde başka bir şey var mı?
 {{/if}}
 
 {{if _.a4_talked_about_harm!=true}}
-[Bizim incineceğimizden korkuyorum.](#act4_harm)
+[İncineceğimizden korkuyorum.](#act4_harm)
 {{/if}}
 
 {{if _.a4_talked_about_alone!=true}}
@@ -1510,7 +1516,7 @@ h: Peki, dertli kalbinde başka bir şey var mı?
 [Kötü biri olduğumuzdan korkuyorum.](#act4_bad)
 {{/if}}
 
-[Hayı, şuanlık iyiyim.](#act4c_prelude)
+[Hayır, şimdilik iyiyim.](#act4c_prelude)
 
 # act4_something_else_2
 
@@ -1551,13 +1557,13 @@ b: Bu bir *oyun* değil, biliyorsun.
 
 `bb({eyes:"angry_d", body:"one_up"})`
 
-b: Duygularınızla sağlıklı bir ilişki kurmak, ekrandaki düğmelere tıklamak kadar kolay değildir.
+b: Duygularınla sağlıklı bir ilişki kurmak, ekrandaki düğmelere tıklamak kadar kolay değildir.
 
 `bb({eyes:"sad", body:"normal"})`
 
-b: *Gerçekten anlaşabilir miyiz?
+b: Gerçekten *anlaşabilir* miyiz?
 
-b: *Bir ekip olarak birlikte çalışabilir miyiz?
+b: Ekip olarak birlikte *çalışabilir* miyiz?
 
 `hong({eyes:"sad", body:"one_up"})`
 
@@ -1586,20 +1592,20 @@ music('campus', {volume:0.5, fade:1});
 
 `publish("act4", ["alshire", 0]);`
 
-a: Ö-öğ-öğle yemeğindee seninle oturmamın bir sakıncası var mı?
+a: Ö-öğ-öğle yemeğinde seninle oturmamın bir sakıncası var mı?
 
 `publish("act4", ["alshire", 1]);`
 
 {{if _.TOP_FEAR=="harm"}}
-s: *Bu* senin hoşlandığın kişi mi? Neden psikopat bir seri katil gibi yalnız oturuyorlar?
+s: *Bu* hoşlandığın kişi mi? Neden psikopat bir seri katil gibi yalnız oturuyorlar?
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: Hoşlandığın kişiye onlarla oturabilir misin diye mi soruyorsun?, Kulağa ne kadar *muhtaç* geldiğini biliyor musun?!
+s: Hoşlandığına oturabilir miyim diye sormak mı, kulağa ne kadar *muhtaç* geliyor?!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: *Bu* senin hoşlandığın kişi mi? Onların huzurlarını ve sesizliğini bozduk! Öyle bir yüküz ki!
+s: *Bu* hoşlandığın kişi mi? Huzurları bozduk! Öyle bir yüküz ki!
 {{/if}}
 
 `publish("act4", ["alshire", 2]);`
@@ -1612,24 +1618,24 @@ a: Ben-yani-, bu sorun değilse, ben sadece...
 
 [Bekle, seni partide görmedim mi?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
-[Evet tabi ki! Buraya gel.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
+[Evet tabiİ ki! Buraya gel.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
-[Üzgünüm, şu anda yalnız kalmaya ihtiyacım var.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
+[Üzgünüm, yalnız kalmaya ihtiyacım var.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
 
 # act4d_recognition
 
 `publish("act4", ["hong_to_alshire",2]);`
 
-h2: Evet, kanepedeydin! İlk partiye gittiğimde oradaydın.
+h2: Evet, kanepedeydin! İlk partiye gittiğimde oradaydın...
 
 `publish("act4", ["hong_to_alshire",10]);`
 
 {{if _.a2_ending=="fight"}}
-h2: Panik atak geçirip ev sahibine yumruk attığım yer.
+h2: Panik atak geçirip ev sahibine yumruk attığımda.
 {{/if}}
 
 {{if _.a2_ending=="flight"}}
-h2: Panik atak geçirip ağlayarak dışarı çıktığım yer.
+h2: Panik atak geçirip ağlayarak dışarı çıktığımda.
 {{/if}}
 
 ```
@@ -1644,11 +1650,11 @@ publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, seni olay yerine koymak istemiyorum!
+h2: Ah, seni olayın ortasına koymak istemiyorum!
 
 `publish("act4", ["hong_to_alshire",4]);`
 
-h2: Sadece dostça bir yüzü hatırladım, hepsi bu.
+h2: Sadece tanıdık bir yüzü hatırladım, hepsi bu.
 
 ```
 publish("act4", ["hong_to_alshire",5]);
@@ -1656,15 +1662,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: AHHHHH BİLİYORDUM! ONLAR TEHLİKELİ PANİK-ATAK PSİKOPATLAR!
+s: AHHHHH BİLİYORDUM! TEHLİKELİ PANİK-ATAK PSİKOPATLAR!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: AAHHH İLK İZLENİMİ OLARAK "TRAVMAMA TANIK OLDU" DEDİ! BU, BİZDEN NEFRET ETTİLER DEMEKTİR!
+s: AAHHH İLK İZLENİM OLARAK "TRAVMAMA TANIK OLDUN" DEDİ! BU, BİZDEN NEFRET ETTİLER DEMEKTİR!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AAAHHH BİRİLERİNİ TRAVMATİK BİR OLAYI HATIRLATTIK. SADECE VARLIĞIMIZ BAŞKALARINA ZARAR VERİR.
+s: AAAHHH TRAVMATİK BİR OLAYI HATIRLATTIK. VARLIĞIMIZ BAŞKALARINA ZARAR VERİYOR.
 {{/if}}
 
 (#act4e)
@@ -1676,7 +1682,7 @@ publish("act4", ["hong_to_alshire", 5]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Biraz bekle insan, onlar rahat görünmüyorlar.
+b: Biraz bekle insan, rahat değiller gibi.
 
 ```
 publish("act4", ["hong_to_alshire", 6]);
@@ -1695,15 +1701,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: *ÇOK* DOSTU OLUYORLAR! TIPKI SERİ KATİL TED BUNDY GİBİ!
+s: *ÇOK* DOSTANE DAVRANIYORLAR! TIPKI SERİ KATİL TED BUNDY GİBİ!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: SADECE GÜZEL OYNUYORLAR! KİMSE *GERÇEKTEN* BİZE YAKIN OLMAK İSTEMİYOR!
+s: DOSTANE ROLÜ YAPIYORLAR! KİMSE *GERÇEKTEN* BİZE YAKIN OLMAK İSTEMİYOR!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AHHH HER ZAMAN BAŞKALARINI HUZURSUZ HİSSETTİRİYORUZ! DÜNYA ÜZERİNDEKİ BİR LEKEYİZ!
+s: AHHH HER ZAMAN BAŞKALARINI HUZURSUZ EDİYORUZ! DÜNYA ÜZERİNDEKİ BİR LEKEYİZ!
 {{/if}}
 
 (#act4e)
@@ -1726,7 +1732,7 @@ h2: Ah, kaba olmak istememiştim!
 
 `publish("act4", ["hong_to_alshire", 6]);`
 
-h2: Sadece duygularımı işlemek için biraz zamana ihtiyacım var. Lütfen bunu kişisel bir reddetme olarak algılamayın.
+h2: Sadece duygularımı anlamak için biraz zamana ihtiyacım var. Lütfen bunu kişisel algılamayın.
 
 ```
 publish("act4", ["hong_to_alshire", 7]);
@@ -1734,7 +1740,7 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: NE HASTA, BÜYÜK DÜŞÜNCELER İŞLENİYORLAR?! BU PSİKOPATIN KALBİNİ HANGİ KARANLIK İSTEKLER DOLUYOR?!
+s: SAPKIN DÜŞÜNCELER DÜŞÜNÜYOR?! BU PSİKOPATIN KALBİNİ HANGİ KARANLIK İSTEKLER DOLUYOR?!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
@@ -1742,7 +1748,7 @@ s: KİŞİSEL OLARAK REDDEDİLDİK! ASLA SEVİLMEYECEĞİZ!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: DUYGUSAL İŞLEMLERİNİ KESTİK! ŞİMDİ SONSUZA KADAR TRAVMATİK OLACAKLAR VE HEPSİ BİZİM SUÇUMUZ!
+s: DUYGULARINI ANLAMASINI BÖLDÜK! ŞİMDİ SONSUZA KADAR TRAVMATİK OLACAKLAR VE HEPSİ BİZİM SUÇUMUZ!
 {{/if}}
 
 (#act4e)
@@ -1806,55 +1812,55 @@ publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 4]);
 ```
 
-b: Sanki duygularınız *savaş suçlusu*ymuş gibi duygularınızla "barış" yapmanız gerektiğini söylüyorlar.
+b: Duygularınızla "barışın" diyorlar, sanki duygularımız *savaş suçlusuymuş* gibi.
 
 `publish("act4", ["bb_closer", 7]);`
 
-b: Ama sadece barıştan *daha fazlasını* yapmamızı istiyorum! *müttefik* olmamızı istiyorum!
+b: *Barıştan* daha fazlasını istiyorum! *Müttefik* olmamızı istiyorum!
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: İyi bir bekçi köpeği olmak istiyorum. Tıpkı açlık ve susuzluğun fiziksel ihtiyaçlarınız için alarm olması gibi,
+b: Açlık ve susuzluğun fiziksel alarmlar olması gibi iyi bir muhafız-köpek olmak istiyorum
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: *Psikolojik* ihtiyaçlarınız için alarm olmak istiyorum – güvenlik, ait olma, iyilik ihtiyaçlarınız.
+b: *Psikolojik* ihtiyaç alarmın olmak istiyorum – güvende, iyi olmak, ait hissetmek gibi.
 
 `publish("act4", ["bb_closer", 1]);`
 
-b: Ama... İşimi berbat ediyorum, bu yüzden beni eğitmene ihtiyacım var.
+b: Ama... İşimde berbatım, bu yüzden beni eğitmene ihtiyacım var.
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: Ben "her zaman geçerli" veya "her zaman mantıksız" değilim. Ben sadece... elimden geleni yapıyorum. Yani lütfen,
+b: Her zaman "mantıklı" veya "mantıksız" değilim. Sadece... elimden geleni yapıyorum. Yani,
 
 `publish("act4", ["bb_closer", 30]);`
 
-b: Sana yardım etmeme yardım et!
+b: Lütfen sana yardım etmeme yardım et!
 
 `publish("act4", ["bb_closer", 6]);`
 
-b: Yine de, yaşlı bir köpeğe yeni numaralar öğretmek biraz zaman alacaktır. Belki *yıllar.*
+b: Yaşlı bir köpeğe yeni numaralar öğretmek biraz *zaman* alacaktır. Belki *yıllar.*
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: Ve bazen nüksedeceğim, eski alışkanlıklarıma kayacağım.
+b: Ve bazen eski alışkanlıklarımı bırakamayacağım.
 
 `publish("act4", ["bb_closer", 2]);`
 
-b: Gölgelere havlayacağım. Seni kelimelerle korkutacağım. Hatta size bazı şeylerin... bazı rahatsız edici görüntülerini gösterebilirim.
+b: Gölgelere havlayacağım. Seni sözlerimle korkutacağım. Hatta bazı rahatsız edici görüntüler... gösterebilirim.
 
 `publish("act4", ["bb_closer", 9]);`
 
-b: Üzgünüm! Ben hırpalanmış bir barınak köpeğiyim! Hırpalanmış köpekler bazen yatağınıza kaka yapar!
+b: Üzgünüm! Ben hırpalanmış bir barınak köpeğiyim! Bazen yatağına kaka yapabilirim!
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: Ama eğer bana karşı sabırlıysan... sadece kal ve benimle otur...
+b: Ama eğer bana karşı sabırlı olursan... yanımda kalıp ve benimle oturursan...
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: Belki bu kurdu evcilleştirebilirsin.
+b: Belki de bu kurdu evcilleştirebilirsin.
 
 `publish("act4", ["bb_closer", 0]);`
 
