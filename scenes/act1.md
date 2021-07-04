@@ -439,7 +439,7 @@ b: İyi o zaman!
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Günde on beş sigara, insan! Fifteen!
+b: Günde onbeş sigara, insan! ONBEŞ!
 {{/if}}
 
 {{if !_.fifteencigs}}
