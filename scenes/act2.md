@@ -337,7 +337,7 @@ b: Bizden daha çekiciler, yani onlara *bakmak* bile--
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: BİZİ SAPIK YAPAR
+b: BİZİ SAPIK YAPAR.
 
 `bb({body:"normal"})`
 
@@ -1352,19 +1352,19 @@ publish("hp_show");
 
 # act2g_1
 
-b: O--
+b: A--
 
 (#act2g)
 
 # act2g_2
 
-b: T--
+b: B--
 
 (#act2g)
 
 # act2g_3
 
-b: D--
+b: Y--
 
 (#act2g)
 
@@ -1513,7 +1513,7 @@ h: KENDİ CESEDİMİ *GÖRDÜM*. GERÇEKTEN DE ÖLÜMÜ *HİSSETTİM*.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: HERKESİN HOR BAKAN GÖZLERİNİ *GÖRDÜM*. SÖYLEDİKLERİ HERŞEYİ *DUYDUM*.
+h: HERKESİN HOR BAKAN GÖZLERİNİ *GÖRDÜM*. SÖYLEDİKLERİ HER ŞEYİ *DUYDUM*.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
