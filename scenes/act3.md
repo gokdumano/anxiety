@@ -127,13 +127,13 @@ r: *Oh hayıııır çok tehlikeli, yapmaaaa.*
 publish("act3",["roofhunter",22]);
 ```
 
-r: Ama tam da bu yüzden ölüme meydan okuyan anlara ihtiyacımız var! Anı Yaşa! Bir fahişenin ^kıç^ından kokaini çek, #YOLO!
+r: Ama tam da bu yüzden ölüme meydan okuyan anlara ihtiyacımız var! Anı Yaşa! Bir fahişenin ^götünden^ kokaini çek, #YOLO!
 
 ```
 publish("act3",["roofhunter",10]);
 ```
 
-r: O hayvana, afra tafralarının ^sik^imize olmadığını göster.
+r: O hayvana, afra tafralarının ^sikimizde^ olmadığını göster.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -752,7 +752,7 @@ b: *Senin* sadık bekçi-köpeğin olmam gerekirdi ama *bana* itaat etmen gereki
 
 `bb({eyes:"sorry_up"});`
 
-b: Bir muhafız ile gardiyanı arasında fark vardır ve ben çizgiyi aştım.
+b: Bir muhafız ile gardiyan arasında fark vardır ve ben çizgiyi aştım.
 
 `bb({eyes:"sorry_down"});`
 
@@ -794,7 +794,7 @@ hong({ body:"stop", mouth:"stop", eyes:"blank" });
 
 h: Evet, neyse, bu aptal bir fikirdi.
 
-h: Bunu sadece sen beni mahvettin diye yaptım, ve seni mahvettim.
+h: Sırf beni mahvettin diye böyle yaptım, intikamımı aldım.
 
 h: Hadi bu turu berabere sayalım, olur mu?
 

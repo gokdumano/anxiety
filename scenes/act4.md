@@ -320,7 +320,7 @@ h: Ölümün eşiğinden döndüğümüzü düşünürsek oldukça sakin görün
 {{/if}}
 
 {{if !_.INJURED}}
-h: Ölümün eşiğinin *eşiğinden*döndüğümüzü düşünürsek oldukça sakin görünüyorsun.
+h: Ölümün eşiğinin *eşiğinden* döndüğümüzü düşünürsek oldukça sakin görünüyorsun.
 {{/if}}
 
 ```
@@ -328,7 +328,7 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Eh, diğer herşeyi kıyaslayınca daha az korkunç yapıyor. Ayrıca beni düşünmeye de itti.
+b: Eh, diğer herşey nispeten daha az geliyor artık. Ayrıca beni düşünmeye de itti.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
@@ -389,7 +389,7 @@ b: Ben hırpalanmış bir barınak köpeğiyim.
 
 `bb({eyes:"sad"})`
 
-b: Zor şeyler atlattık. Belki travma ya da ilgisizlik. Bu yüzden bazen aşırı tepki veriyorum ve:
+b: Zor şeyler atlattık. Adına travma ya da yalnızlık de. Bu yüzden bazen aşırı tepki veriyorum ve:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -426,7 +426,7 @@ h: Tamam. Duygularla sağlıklı ilişkiler. İlişkilerin iletişime ihtiyacı 
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: Bu beş dakika kulağa oldukça zorlama gelecek ama başarana kadar öyleymiş gibi yapalım.
+h: Bu beş dakika kulağa oldukça zorlama gelecek ama yolun sonunu görene kadar gidelim.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
@@ -471,11 +471,11 @@ b: Ama *bütün dünya* tehlikeli görünüyor. Çok fazla felaket ve kötülük
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: Konuşulacak şeyi yeterince *ben* seçtim, *Sen* ne düşünüyorsun, insan?
+b: *Ben* yeterince konuştum, *sen* ne düşünüyorsun, insan?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Tekrar, sana dönersek insan, Ne düşünüyorsun?
+b: Peki ya sen insan, sen ne düşünüyorsun?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
@@ -501,7 +501,7 @@ bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: Kendimizi korumayı mı öğreneceğiz? Birbirini koruyan bir topluluğa mı katılacağız? Sağlığımızı ve kişisel sınırlarımızı mı iyileştireceğiz?
+h: Kendimizi korumayı öğrenebiliriz, birbirini koruyan bir topluluğa mı katılabiliriz, sağlığımızı ve kişisel sınırlarımızı iyileştirebiliriz.
 
 ```
 bb({ eyes:"annoyed_r" });
@@ -852,7 +852,7 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"sad_d" });`
 
-b: O aidiyetlik hissinin karşıladığından emin olmak istiyorum..
+b: Aidiyetlik hissinin karşıladığından emin olmak istiyorum..
 
 `bb({ eyes:"sad_u" });`
 
@@ -861,11 +861,11 @@ b: Ama korkum o ki, eğer birisi bizi - *gerçek* bizi - tanırsa korkup kaçar.
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: Konuşulacak şeyi yeterince *ben* seçtim, *Sen* ne düşünüyorsun, insan?
+b: *Ben* yeterince konuştum, *sen* ne düşünüyorsun, insan?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Tekrar, sana dönersek insan. Ne düşünüyorsun?
+b: Peki ya sen insan, sen ne düşünüyorsun?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
@@ -948,7 +948,7 @@ h: "^Oruspu Çocuğu^™ Olma."
 
 `bb({ eyes:"angry" })`
 
-b: İnsanların ayaklarını sildiği, Lütfen ve Teşekkürler diyen bir kapı paspası olacağız!
+b: İnsanların ayaklarını sildiği, "Lütfen" ve "Teşekkürler" diyen bir kapı paspası olacağız!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
@@ -970,7 +970,7 @@ hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Ayrıca... o ruju aklımda canlandırdım da... *ıyy??*
+h: Ayrıca... o ruju aklımda canlandırdım da... *tatsız??*
 
 (#act4_something_else)
 
@@ -1166,7 +1166,7 @@ b: Ve bana bozuk *olmadığımızı* söyleme. Neredeyse bir *çatıdan* atlıyo
 `bb({ body:"normal", eyes:"sad" })`
 
 {{if _.a4_fears_discussed==1}}
-b: Konuşulacak şeyi yeterince *ben* seçtim, *Sen* ne düşünüyorsun, insan?
+b: *Ben* yeterince konuştum, *sen* ne düşünüyorsun, insan?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
@@ -1181,9 +1181,9 @@ b: Ekleyeceğin bi'şey var mı, insan?
 
 [Madem bozuğuz, hadi kendimizi düzeltelim.](#act4_bad_fix)
 
-[Madem bozuğuz, hadi bunu kabulş edelim.](#act4_bad_accept)
+[Madem bozuğuz, hadi bunu kabul edelim.](#act4_bad_accept)
 
-[Teşekkür ederim.](#act4_thanks) `_.thanks_for = "Moral refahım";`
+[Teşekkür ederim.](#act4_thanks) `_.thanks_for = "Ahlaki sağlığım";`
 
 # act4_bad_fix
 
@@ -1654,7 +1654,7 @@ h2: Ah, seni olayın ortasına koymak istemiyorum!
 
 `publish("act4", ["hong_to_alshire",4]);`
 
-h2: Sadece dostça bir yüzü hatırladım, hepsi bu.
+h2: Sadece tanıdık bir yüzü hatırladım, hepsi bu.
 
 ```
 publish("act4", ["hong_to_alshire",5]);
@@ -1820,7 +1820,7 @@ b: *Barıştan* daha fazlasını istiyorum! *Müttefik* olmamızı istiyorum!
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: Açlık ve susuzluk fiziksel alarmların olması gibi iyi bir muhafız-köpek olmak istiyorum
+b: Açlık ve susuzluğun fiziksel alarmlar olması gibi iyi bir muhafız-köpek olmak istiyorum
 
 `publish("act4", ["bb_closer", 8]);`
 
@@ -1852,11 +1852,11 @@ b: Gölgelere havlayacağım. Seni sözlerimle korkutacağım. Hatta bazı rahat
 
 `publish("act4", ["bb_closer", 9]);`
 
-b: Üzgünüm! Ben hırpalanmış bir barınak köpeğiyim! Bazen yatağına kaka yapabiliriz!
+b: Üzgünüm! Ben hırpalanmış bir barınak köpeğiyim! Bazen yatağına kaka yapabilirim!
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: Ama eğer bana karşı sabır olursan... yanımda kalıp ve benimle oturursan...
+b: Ama eğer bana karşı sabırlı olursan... yanımda kalıp ve benimle oturursan...
 
 `publish("act4", ["bb_closer", 8]);`
 
