@@ -476,14 +476,14 @@ b: Sadece dizüstü bilgisayarı getir, böylece çalışabiliriz ve toplum-para
 {{/if}}
 
 {{if _.whitebread}}
-b: BEYAZ EKMEK servis etmedikleri sürece
+b: BEYAZ EKMEK servis etmedikleri sürece.
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
 h: TANRIM. Seni susturacaksa, tamam.
 
-h: I'll say yes.
+h: Evet diyeceğim.
 
 {{if _.whalepoop}}
 b: Balina dışkısı, insan! Balina dışkısı!
@@ -498,7 +498,7 @@ b: Balina dışkısı, insan! Balina dışkısı!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: hatta daha kötüsü... BEYAZ EKMEK
+b: Hatta daha kötüsü... BEYAZ EKMEK
 {{/if}}
 
 {{if _.whitebread}}
@@ -1361,7 +1361,7 @@ b: Şey... insan...
 
 `Game.OVERRIDE_TEXT_SPEED = 0.5;`
 
-b: Herşey güzel olacak.
+b: Her şey güzel olacak.
 
 (...600)
 
