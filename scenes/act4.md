@@ -328,7 +328,7 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Eh, diğer herşey nispeten daha az geliyor artık. Ayrıca beni düşünmeye de itti.
+b: Eh, diğer her şey nispeten daha az geliyor artık. Ayrıca beni düşünmeye de itti.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
@@ -922,7 +922,7 @@ b: Kurbanlarının duygularını okuyabilen seri katiller "empati" uzmanı deği
 
 `bb({ eyes:"annoyed" });`
 
-b: Charles Manson arkadaşlar edinip ve insanları etkilemedi mi?
+b: Charles Manson arkadaşlar edinip insanları etkilemedi mi?
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
@@ -1051,7 +1051,7 @@ b: Ne.
 
 `hong({body:"hands_1"})`
 
-h: Köpekler sevgi ve güven göstergesi olarak karınlarını karınlarını savunmasız bırakırlar.
+h: Köpekler sevgi ve güven göstergesi olarak karınlarını savunmasız bırakırlar.
 
 `hong({body:"one_up"})`
 
@@ -1077,7 +1077,7 @@ h: Hayır.
 
 # act4_alone_experiment_cheap
 
-b: Baristaya "merhaba" demekaltın madalyalık bir olimpiyat performansı değil.
+b: Baristaya "merhaba" demek altın madalyalık bir olimpiyat performansı değil.
 
 ```
 hong({ body:"point", eyes:"surprise" });
@@ -1283,7 +1283,7 @@ h: ...
 
 h: "Korkacak bi'şey kalmamasından" bile korkuyorsak...
 
-h: Korkacak şeylerimiz kolay kolay bitmeyecektir
+h: Korkacak şeylerimiz kolay kolay bitmeyecektir.
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
@@ -1447,7 +1447,7 @@ h: Evet, biraz düşününce, "kabul etmek" berbat bir şey.
 
 `bb({ eyes:"closed_annoyed", mouth:"narrow" });`
 
-b: "kabul etmeyi" kabul etmiyorum.
+b: "Kabul etmeyi" kabul etmiyorum.
 
 (#act4_something_else)
 
@@ -1618,7 +1618,7 @@ a: Ben-yani-, bu sorun değilse, ben sadece...
 
 [Bekle, seni partide görmedim mi?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
-[Evet tabiİ ki! Buraya gel.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
+[Evet tabii ki! Buraya gel.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
 [Üzgünüm, yalnız kalmaya ihtiyacım var.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
 
