@@ -51,7 +51,7 @@ publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Onun bana yaptıklarının öcünü senin canavarını da yok ederek alabileyeceğim için çok mutluyum.
+r: Onun bana yaptıklarının öcünü senin canavarını da yok ederek alabileceğim için çok mutluyum.
 
 ```
 publish("act3",["roofhunter",2]);
@@ -174,7 +174,7 @@ r: Sonra da TED konuşmalarında ^sikikliğimizi^ kabul etmemizi ve kafamızdaki
 publish("act3",["roofhunter",6]);
 ```
 
-r: Eminimki *sen* de o hayvanın bizim gibi insanlarını *incittiğini* biliyorsun. Bizim gibilere *acı çektiriyor*.
+r: Eminim ki *sen* de o hayvanın bizim gibi insanlarını *incittiğini* biliyorsun. Bizim gibilere *acı çektiriyor*.
 
 ```
 publish("act3",["roofhunter",19]);
@@ -636,7 +636,7 @@ h: Geçmişte, dedim ki: “Sadece bütün acıdan kurtulmak istiyorum.”
 
 h: İstediğimi aldım. Artık acı, korku veya anksiyete hissetmiyorum...
 
-h: Artık hiç bir şey hissetmiyorum.
+h: Artık hiçbir şey hissetmiyorum.
 
 `_.a3_ending = "jump";`
 
