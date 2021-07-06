@@ -452,7 +452,7 @@ b: Buradan çıkmalıyız, kendimizi Netflix ve yemek siparişi ile küçük bir
 ```
 _.a2_second_danger = 'netflix';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "a quarantine";
+_.a2_hoodie_callback = "karantina";
 ```
 
 (#act2c)
@@ -495,7 +495,7 @@ b: "YÜZSÜZ, BÜYÜK İĞRENÇ BİR SAPIKTIR"
 ```
 _.a2_second_danger = 'law';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "the law";
+_.a2_hoodie_callback = "kanunlar";
 ```
 
 (#act2c)
@@ -525,7 +525,7 @@ b: KELEBEK ETKİSİ, İNSAN! ŞİMDİ BİLE İSTEMEDEN KAÇ KİŞİYİ ÖLDÜRÜ
 ```
 _.a2_second_danger = 'butterfly';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "World War I";
+_.a2_hoodie_callback = "1. Dünya Savaşı";
 ```
 
 (#act2c)
@@ -553,7 +553,7 @@ b: İnsan, bizi de kendilerine çevirmeden önce bu zevk-zombilerinden kaçmalı
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zombies";
+_.a2_hoodie_callback = "zombiler";
 ```
 
 (#act2c)
@@ -605,7 +605,7 @@ b: ÖLECEKSİNNNNNNNNNNNN
 ```
 _.a2_second_danger = 'ignore';
 _.a2_attack_2 = "harm";
-_.a2_hoodie_callback = "carbon monoxide";
+_.a2_hoodie_callback = "karbon monoksit";
 ```
 
 (#act2c)
@@ -687,7 +687,7 @@ b: Sonra ASIK SURAT MİKROBU bulaşmasın diye dronu dezenfekte etmeleri gerekec
 
 `_.a2_attack_3 = "alone";`
 
-`_.a2_hoodie_callback = "a quarantine";`
+`_.a2_hoodie_callback = "karantina";`
 
 (#act2d)
 
@@ -726,7 +726,7 @@ b: çünkü o YÜZSÜZ, BÜYÜK İĞRENÇ BİR SAPIK
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the law";`
+`_.a2_hoodie_callback = "kanunlar";`
 
 (#act2d)
 
@@ -750,7 +750,7 @@ b: SAĞLIK SİSTEMİNİ BATIRDIN VE BAM MİLYONLAR ÖLDÜ
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the butterfly effect";`
+`_.a2_hoodie_callback = "kelebek etkisi";`
 
 (#act2d)
 
@@ -769,7 +769,7 @@ b: BEĞENİİ. BEĞENİİİİİİİİİ.
 b: Sonra SENİ ısıracaklar ve BEYİNSİZ BİR MAÇOYA ve/veya AKILSIZ BİR KEVAŞEYE dönüşeceksin.
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "zombies";`
+`_.a2_hoodie_callback = "zombiler";`
 
 (#act2d)
 
@@ -809,7 +809,7 @@ b: ÖLÜMÜN GELDİĞİNİ BİLE GÖREMEYİZ. VARLIĞIMIZ SONSUZA KADAR YOKOLUR,
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "carbon monoxide";`
+`_.a2_hoodie_callback = "karbon monoksit";`
 
 (#act2d)
 
@@ -869,7 +869,7 @@ b: AHHH ÖLÜYORUZ! ÖLÜYORUZ ÖLÜYORUZ ÖLÜYORUZ--
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "punch bowls";`
+`_.a2_hoodie_callback = "kokteyl kasesi";`
 
 (#act2d)
 
