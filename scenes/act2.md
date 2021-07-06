@@ -93,7 +93,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Evet, tam uydurma. Bunu kim inanıp ve retweetlerki?
+a: Evet, tam uydurma. Buna kim inanıp retweetlerki?
 
 ```
 publish("act2",["dum",2]);
