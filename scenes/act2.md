@@ -625,8 +625,6 @@ b: Ah çok şükür insan, sanırım beni tekrar duyabiliyorsun!
 
 `bb({eyes:"closed", body:"point"})`
 
-b: S...
-
 {{if _.a2_first_choice=="louder"}}
 [Deminki tehlikenin *çok daha fazlası*](#act2c_louder)
 {{/if}}
