@@ -328,7 +328,7 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Eh, diğer her şey nispeten daha az geliyor artık. Ayrıca beni düşünmeye de itti.
+b: Eh, diğer her şey nispeten daha az korkunç geliyor artık. Ayrıca beni düşünmeye de itti.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
