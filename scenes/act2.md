@@ -93,7 +93,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Evet, tam uydurma. Bunu kim inanıp ve retweetlerki?
+a: Evet, tam uydurma. Buna kim inanıp retweetlerki?
 
 ```
 publish("act2",["dum",2]);
@@ -452,7 +452,7 @@ b: Buradan çıkmalıyız, kendimizi Netflix ve yemek siparişi ile küçük bir
 ```
 _.a2_second_danger = 'netflix';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "a quarantine";
+_.a2_hoodie_callback = "karantina";
 ```
 
 (#act2c)
@@ -495,7 +495,7 @@ b: "YÜZSÜZ, BÜYÜK İĞRENÇ BİR SAPIKTIR"
 ```
 _.a2_second_danger = 'law';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "the law";
+_.a2_hoodie_callback = "kanunlar";
 ```
 
 (#act2c)
@@ -525,7 +525,7 @@ b: KELEBEK ETKİSİ, İNSAN! ŞİMDİ BİLE İSTEMEDEN KAÇ KİŞİYİ ÖLDÜRÜ
 ```
 _.a2_second_danger = 'butterfly';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "World War I";
+_.a2_hoodie_callback = "1. Dünya Savaşı";
 ```
 
 (#act2c)
@@ -553,7 +553,7 @@ b: İnsan, bizi de kendilerine çevirmeden önce bu zevk-zombilerinden kaçmalı
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zombies";
+_.a2_hoodie_callback = "zombiler";
 ```
 
 (#act2c)
@@ -605,7 +605,7 @@ b: ÖLECEKSİNNNNNNNNNNNN
 ```
 _.a2_second_danger = 'ignore';
 _.a2_attack_2 = "harm";
-_.a2_hoodie_callback = "carbon monoxide";
+_.a2_hoodie_callback = "karbon monoksit";
 ```
 
 (#act2c)
@@ -624,8 +624,6 @@ b: ...
 b: Ah çok şükür insan, sanırım beni tekrar duyabiliyorsun!
 
 `bb({eyes:"closed", body:"point"})`
-
-b: S...
 
 {{if _.a2_first_choice=="louder"}}
 [Deminki tehlikenin *çok daha fazlası*](#act2c_louder)
@@ -687,7 +685,7 @@ b: Sonra ASIK SURAT MİKROBU bulaşmasın diye dronu dezenfekte etmeleri gerekec
 
 `_.a2_attack_3 = "alone";`
 
-`_.a2_hoodie_callback = "a quarantine";`
+`_.a2_hoodie_callback = "karantina";`
 
 (#act2d)
 
@@ -726,7 +724,7 @@ b: çünkü o YÜZSÜZ, BÜYÜK İĞRENÇ BİR SAPIK
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the law";`
+`_.a2_hoodie_callback = "kanunlar";`
 
 (#act2d)
 
@@ -750,7 +748,7 @@ b: SAĞLIK SİSTEMİNİ BATIRDIN VE BAM MİLYONLAR ÖLDÜ
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the butterfly effect";`
+`_.a2_hoodie_callback = "kelebek etkisi";`
 
 (#act2d)
 
@@ -769,7 +767,7 @@ b: BEĞENİİ. BEĞENİİİİİİİİİ.
 b: Sonra SENİ ısıracaklar ve BEYİNSİZ BİR MAÇOYA ve/veya AKILSIZ BİR KEVAŞEYE dönüşeceksin.
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "zombies";`
+`_.a2_hoodie_callback = "zombiler";`
 
 (#act2d)
 
@@ -809,7 +807,7 @@ b: ÖLÜMÜN GELDİĞİNİ BİLE GÖREMEYİZ. VARLIĞIMIZ SONSUZA KADAR YOKOLUR,
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "carbon monoxide";`
+`_.a2_hoodie_callback = "karbon monoksit";`
 
 (#act2d)
 
@@ -869,7 +867,7 @@ b: AHHH ÖLÜYORUZ! ÖLÜYORUZ ÖLÜYORUZ ÖLÜYORUZ--
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "punch bowls";`
+`_.a2_hoodie_callback = "kokteyl kasesi";`
 
 (#act2d)
 
@@ -1517,7 +1515,7 @@ h: HERKESİN HOR BAKAN GÖZLERİNİ *GÖRDÜM*. SÖYLEDİKLERİ HER ŞEYİ *DUYD
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: KIRILAN KABURGALARIMI *DUYDUM*. HAVADAKİ KANI *TADABİLDİM.
+h: KIRILAN KABURGALARIN SESİNİ *DUYDUM*. HAVADAKİ KANI *TADABİLDİM*.
 {{/if}}
 
 b: Üzgünüm, insan.

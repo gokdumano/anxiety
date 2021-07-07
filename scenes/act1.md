@@ -112,7 +112,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Müstehcen bir ne?
+h: Akışına mı?
 
 `bb({eyes:"normal"});`
 
@@ -284,7 +284,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 
 b: Eğer toplum-bedenine katkıda bulunmuyorsak, o zaman toplum-parazitiyiz!
 
-b: Toplum-bedeni, toplum-parazitlerini öldürmek için ilaç için toplum-doktora gidecek, sonra biz--
+b: Toplum-bedeni, toplum-parazitlerini öldürmek için toplum-doktora gidecek, sonra biz--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
@@ -315,7 +315,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Bu çalışmalar doğrula--
+h: Bu bilgi doğru--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
