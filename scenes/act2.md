@@ -974,7 +974,7 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Kusurlarını alçakgönüllülükle *kabul etmelisin* ki kişilik olarak büyüyebilesin!
+b: Kusurlarını alçak gönüllülükle *kabul etmelisin* ki kişilik olarak büyüyebilesin!
 
 `bb({body:"two_up", eyes:"suspect"})`
 
@@ -1245,7 +1245,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: tanrım tam bir yıkığım.
+h2: Tanrım tam bir yıkığım.
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1383,7 +1383,7 @@ bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 
 h: Hmm, ne nefis bir aroma!
 
-h: "Zihnini kapa" tadı ve devamında "bir daha asla bir şey hissetme" kokusu
+h: "Zihnini kapa" tadı ve devamında "bir daha asla bir şey hissetme" kokusu...
 
 b: Bu kötü, insan. Bu gerçekten çok kötü.
 
@@ -1437,7 +1437,7 @@ h: Peki bu konuda *ne* yapacaksın, ^göt^?
 
 b: Çok üzgünüm, insan.
 
-b: ÖZEL SALDIRIMI kullanmak zorunda kalacağım
+b: ÖZEL SALDIRIMI kullanmak zorunda kalacağım.
 
 ```
 bb({body:"special_a"});
@@ -1664,7 +1664,7 @@ h2: yo, yo, şey, maraton koşmalıyım. hızlanmalıyım
 
 r: Gelecek hafta sonu partime gel tatlım. Bir dahakine sana daha da güçlü bir şey hazırlayacağım!
 
-h2: tamam teşekkürler koş koş koş koş koş
+h2: tamam, teşekkürler koş koş koş koş koş
 
 r: Sen ve ben, o canavara patron kim göstereceğiz!
 
